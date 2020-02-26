@@ -1,0 +1,33 @@
+ /*
+* Import styles to prevent repainting
+*/
+@font-face {
+    font-family: 'HouschkaPro-Bold';
+    src: url('HouschkaBold/HouschkaBold.eot'); /* IE9 Compat Modes */
+    src: url('HouschkaBold/HouschkaBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('HouschkaBold/HouschkaBold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('HouschkaBold/HouschkaBold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('HouschkaBold/HouschkaBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('HouschkaBold/HouschkaBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'HouschkaPro-Medium';
+    src: url('HouschkaMedium/HouschkaMedium.eot'); /* IE9 Compat Modes */
+    src: url('HouschkaBold/HouschkaMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('HouschkaMedium/HouschkaMedium.woff2') format('woff2'), /* Super Modern Browsers */
+    url('HouschkaMedium/HouschkaMedium.woff') format('woff'), /* Pretty Modern Browsers */
+    url('HouschkaMedium/HouschkaMedium.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('HouschkaMedium/HouschkaMedium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'HouschkaPro-Light';
+    src: url('fonts/HouschkaLight/HouschkaLight.otf');
+}
+
+@font-face {
+    font-family: 'HouschkaPro-DemiBold';
+    src: url('fonts/HouschkaDemiBold/HouschkaPro-DemiBold.otf');
+}
+

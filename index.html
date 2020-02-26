@@ -1,10 +1,2618 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="iOS &amp; Android Development">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="og:type" content="website">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property=og:title content="DevsTeam.mobi">
+    <meta property=og:description content="iOS & Android Development">
+    <meta property=og:url content="http://devsteam.mobi/" />
+    <link rel=canonical href="http://devsteam.mobi/" />
+    <title>DevsTeam.mobi</title>
+    <link href="static/styles/main.css" rel="stylesheet">
+    <meta name="theme-color" content="#fff">
+    <link rel=apple-touch-icon sizes=180x180 href=./images/apple-touch-icon.png>
+    <link rel=icon type=image/png href=./images/favicon-32x32.png sizes=32x32>
+    <link href="./css/layout.css" rel="stylesheet">
+    <link href="./iconfont/material-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link href="main.css" rel="stylesheet">
+
+    <!--[if lt IE 8]>
+        <script src="./jquery.min.js"></script>
+        <script src="./jquery.validate.min.js"></script>
+        <script src="./bootstrap.min.js"></script>
+        <script src="./main.min.js"></script>
+        <script src="./js/portfolio.js"></script>
+        <script src="./myjs.js"></script>
+        <script src="static\scripts\clicks.js"></script>
+    <![endif]-->
+                
+        <script src="static\scripts\clicks.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-94065684-1', 'auto');
+        ga('send', 'pageview');
+
+      
+    </script>
+  
+
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+    <style>
+        @font-face {
+            font-family: uc-nexus-iconfont;
+            src: url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff) format('woff'), url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf) format('truetype')
+        }
+    </style>
+    <style type="text/css">
+        .tk-pt-serif {
+            font-family: "pt-serif", sans-serif;
+            }
+        /* fon */
+    </style>
+    <style type="text/css">
+        @font-face {
+            font-family: tk-pt-serif-n4;
+            src: url(https://use.typekit.net/af/5702c4/000000000000000000012500/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),
+            url(https://use.typekit.net/af/5702c4/000000000000000000012500/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),
+            url(https://use.typekit.net/af/5702c4/000000000000000000012500/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: tk-pt-serif-n7;
+            src: url(https://use.typekit.net/af/a8399f/0000000000000000000124ff/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),
+            url(https://use.typekit.net/af/a8399f/0000000000000000000124ff/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),
+            url(https://use.typekit.net/af/a8399f/0000000000000000000124ff/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");
+            font-weight: 700;
+            font-style: normal;
+        }
+    </style>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            margin: 0;
+            /* font-family: 'pt-serif'; */
+        }
+
+        html,
+        body {
+            background: #2E8B57;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        span.montserrat {
+            /*font-family: Montserrat;*/
+        /*add Andrey this font for IE*/
+        }
+
+        .mb25 {
+            margin-bottom: 1.5rem;
+        }
+
+        .mb35 {
+            margin-bottom: 2.5rem;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .what-others-say-container {
+            /*background-color: yellow;*/
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .what-others-say-figure {
+            width: 50%;
+            height: 400px;
+        }
+
+        @media (max-width: 767px) {
+            .what-others-say-figure {
+                width: 100%;
+                height: auto;  /*add Andrey*/
+                margin-top: 20%; /*add Andrey*/
+            }
+            .what-others-say-container {
+                /*background-color: red;*/
+                flex-direction: column;
+            }
+        }
+
+        .css-1aa1zjj,
+        [data-css-1aa1zjj] {
+            width: 82.5%;
+            margin: auto;
+        }
+
+        .css-nmstqo,
+        [data-css-nmstqo] {
+            color: white;
+            font-family: Helvetica Neue;
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .css-1m1i8rc,
+        [data-css-1m1i8rc] {
+            height: 40px;
+        }
+
+        .css-f4vr3l,
+        [data-css-f4vr3l] {
+            font-weight: bold;
+            padding-left: 2rem;
+            border-radius: 40px;
+            text-transform: uppercase;
+            font-size: 11px;
+            font-family: Montserrat;
+            padding-right: 2rem;
+            cursor: pointer;
+            letter-spacing: 2px;
+            display: inline-block;
+            outline: none;
+            text-decoration: none;
+        }
+
+        .css-19v1783,
+        [data-css-19v1783] {
+            cursor: pointer;
+            padding-left: 2rem;
+            border-radius: 40px;
+            text-transform: uppercase;
+            font-size: 11px;
+            font-family: Montserrat;
+            font-weight: bold;
+            padding-right: 2rem;
+            letter-spacing: 2px;
+            display: inline-block;
+            outline: none;
+            text-decoration: none;
+            background: white;
+            color: black;
+        }
+
+        .css-cfap56:hover,
+        [data-css-cfap56]:hover,
+        .css-cfap56[data-simulate-hover],
+        [data-css-cfap56][data-simulate-hover] {
+            opacity: 0.9;
+        }
+
+        .css-1hhe3gs,
+        [data-css-1hhe3gs] {
+            cursor: pointer;
+            padding-left: 2rem;
+            border-radius: 40px;
+            text-transform: uppercase;
+            font-size: 11px;
+            font-family: Montserrat;
+            font-weight: bold;
+            padding-right: 2rem;
+            letter-spacing: 2px;
+            display: inline-block;
+            outline: none;
+            text-decoration: none;
+            background: #2E8B57;
+            color: white;
+        }
+
+        .css-1hhe3gs:hover,
+        [data-css-1hhe3gs]:hover,
+        .css-1hhe3gs[data-simulate-hover],
+        [data-css-1hhe3gs][data-simulate-hover] {
+            opacity: 0.9;
+        }
+
+        .css-1rumwc1:hover,
+        [data-css-1rumwc1]:hover,
+        .css-1rumwc1[data-simulate-hover],
+        [data-css-1rumwc1][data-simulate-hover] {
+            border-color: white;
+            color: white;
+        }
+
+        .css-6hlbrb,
+        [data-css-6hlbrb] {
+            cursor: pointer;
+            padding-left: 2rem;
+            border-radius: 40px;
+            text-transform: uppercase;
+            font-size: 11px;
+            font-family: Montserrat;
+            font-weight: bold;
+            padding-right: 2rem;
+            letter-spacing: 2px;
+            display: inline-block;
+            outline: none;
+            text-decoration: none;
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .css-6hlbrb:hover,
+        [data-css-6hlbrb]:hover,
+        .css-6hlbrb[data-simulate-hover],
+        [data-css-6hlbrb][data-simulate-hover] {
+            border-color: white;
+            color: white;
+        }
+
+        .css-102me9:hover,
+        [data-css-102me9]:hover,
+        .css-102me9[data-simulate-hover],
+        [data-css-102me9][data-simulate-hover] {
+            border-bottom-color: white;
+            opacity: 1;
+        }
+
+        .footer-text {
+            font-family: HouschkaPro-Medium, sans-serif;
+        }
+
+        .css-1pf134v,
+        [data-css-1pf134v] {
+            display: block;
+            padding-left: .5rem;
+            border-radius: 0;
+            text-transform: uppercase;
+            font-size: 11px;
+            font-family: Montserrat;
+            font-weight: bold;
+            cursor: pointer;
+            letter-spacing: 2px;
+            padding-right: .5rem;
+            outline: none;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            border-bottom: 1px solid transparent;
+            background-color: transparent;
+            color: white;
+            opacity: 0.8;
+        }
+
+        .css-1pf134v:hover,
+        [data-css-1pf134v]:hover,
+        .css-1pf134v[data-simulate-hover],
+        [data-css-1pf134v][data-simulate-hover] {
+            border-bottom-color: white;
+            opacity: 1;
+        }
+
+        .css-gql76z,
+        [data-css-gql76z] {
+            font-weight: bold;
+            padding-left: 5rem;
+            border-radius: 40px;
+            text-transform: uppercase;
+            font-size: 11px;
+            font-family: Montserrat;
+            padding-right: 5rem;
+            cursor: pointer;
+            letter-spacing: 2px;
+            display: inline-block;
+            outline: none;
+            text-decoration: none;
+        }
+        @media (max-width:376px){
+    .css-gql76z{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+        .css-rnrt6e,
+        [data-css-rnrt6e] {
+            margin-right: 3rem;
+        }
+
+        .css-1pvdsfn,
+        [data-css-1pvdsfn] {
+            padding: 0;
+            margin: 0;
+        }
+
+        .css-1hjx5v9:first-child,
+        [data-css-1hjx5v9]:first-child,
+        .css-1hjx5v9[data-simulate-firstchild],
+        [data-css-1hjx5v9][data-simulate-firstchild] {
+            display: none;
+        }
+        /*add Andrey*/
+        @media (max-width: 1150px) {
+            .what-others-say-figure {
+                width: 100%;
+                height: 400px;
+            }
+            .what-others-say-container {
+                flex-direction: column;
+            }
+        }
+        /*add Andrey*/
+
+        @media (max-width: 1200px) {
+            .css-1e2k3iz:first-child,
+            [data-css-1e2k3iz]:first-child,
+            .css-1e2k3iz[data-simulate-firstchild],
+            [data-css-1e2k3iz][data-simulate-firstchild] {
+                display: none;
+            }
+        }
+
+        .css-1qcnvvj:nth-child(2),
+        [data-css-1qcnvvj]:nth-child(2),
+        .css-1qcnvvj[data-simulate-nthchild2],
+        [data-css-1qcnvvj][data-simulate-nthchild2] {
+            display: none;
+        }
+
+        @media (max-width: 1000px) {
+            .css-15wxclz:nth-child(2),
+            [data-css-15wxclz]:nth-child(2),
+            .css-15wxclz[data-simulate-nthchild2],
+            [data-css-15wxclz][data-simulate-nthchild2] {
+                display: none;
+            }
+        }
+
+        .css-1368kg0:nth-child(3),
+        [data-css-1368kg0]:nth-child(3),
+        .css-1368kg0[data-simulate-nthchild3],
+        [data-css-1368kg0][data-simulate-nthchild3] {
+            display: none;
+        }
+
+        @media (max-width: 850px) {
+            .css-1jn07p2:nth-child(3),
+            [data-css-1jn07p2]:nth-child(3),
+            .css-1jn07p2[data-simulate-nthchild3],
+            [data-css-1jn07p2][data-simulate-nthchild3] {
+                display: none;
+            }
+        }
+
+        .css-1xkk4qc:nth-child(4),
+        [data-css-1xkk4qc]:nth-child(4),
+        .css-1xkk4qc[data-simulate-nthchild4],
+        [data-css-1xkk4qc][data-simulate-nthchild4] {
+            display: none;
+        }
+
+        @media (max-width: 720px) {
+            .css-8zrgmq:nth-child(4),
+            [data-css-8zrgmq]:nth-child(4),
+            .css-8zrgmq[data-simulate-nthchild4],
+            [data-css-8zrgmq][data-simulate-nthchild4] {
+                display: none;
+            }
+        }
+
+        .css-1j2n9bc:nth-child(5),
+        [data-css-1j2n9bc]:nth-child(5),
+        .css-1j2n9bc[data-simulate-nthchild5],
+        [data-css-1j2n9bc][data-simulate-nthchild5] {
+            display: none;
+        }
+
+        @media (max-width: 620px) {
+            .css-vtmgx4:nth-child(5),
+            [data-css-vtmgx4]:nth-child(5),
+            .css-vtmgx4[data-simulate-nthchild5],
+            [data-css-vtmgx4][data-simulate-nthchild5] {
+                display: none;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            .css-1ovbfpg:first-child,
+            [data-css-1ovbfpg]:first-child,
+            .css-1ovbfpg[data-simulate-firstchild],
+            [data-css-1ovbfpg][data-simulate-firstchild] {
+                display: none;
+            }
+        }
+
+        @media (max-width: 1000px) {
+            .css-1ovbfpg:nth-child(2),
+            [data-css-1ovbfpg]:nth-child(2),
+            .css-1ovbfpg[data-simulate-nthchild2],
+            [data-css-1ovbfpg][data-simulate-nthchild2] {
+                display: none;
+            }
+        }
+
+        @media (max-width: 850px) {
+            .css-1ovbfpg:nth-child(3),
+            [data-css-1ovbfpg]:nth-child(3),
+            .css-1ovbfpg[data-simulate-nthchild3],
+            [data-css-1ovbfpg][data-simulate-nthchild3] {
+                display: none;
+            }
+        }
+
+        @media (max-width: 720px) {
+            .css-1ovbfpg:nth-child(4),
+            [data-css-1ovbfpg]:nth-child(4),
+            .css-1ovbfpg[data-simulate-nthchild4],
+            [data-css-1ovbfpg][data-simulate-nthchild4] {
+                display: none;
+            }
+        }
+
+        @media (max-width: 620px) {
+            .css-1ovbfpg:nth-child(5),
+            [data-css-1ovbfpg]:nth-child(5),
+            .css-1ovbfpg[data-simulate-nthchild5],
+            [data-css-1ovbfpg][data-simulate-nthchild5] {
+                display: none;
+            }
+        }
+
+        @media (max-width: 620px) {
+            .css-1663l8p,
+            [data-css-1663l8p] {
+                -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                -webkit-box-pack: center;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .css-rbdwx5,
+            [data-css-rbdwx5] {
+                letter-spacing: -1px;
+                font-size: 34px;
+                line-height: 45px;
+            }
+        }
+
+        .css-jjm9bz,
+        [data-css-jjm9bz] {
+            margin-top: 0;
+            color: white;
+            font-size: 45px;
+            font-weight: normal;
+            letter-spacing: -2px;
+            line-height: 55px;
+        }
+
+        @media (max-width: 520px) {
+            .css-jjm9bz,
+            [data-css-jjm9bz] {
+                letter-spacing: -1px;
+                font-size: 34px;
+                line-height: 45px;
+            }
+        }
+
+        .css-1ol3jh7,
+        [data-css-1ol3jh7] {
+            margin-top: 0;
+            color: #3C3D41;
+            font-size: 45px;
+            font-weight: normal;
+            letter-spacing: -2px;
+            line-height: 55px;
+        }
+
+        @media (max-width: 520px) {
+            .css-1ol3jh7,
+            [data-css-1ol3jh7] {
+                letter-spacing: -1px;
+                font-size: 34px;
+                line-height: 45px;
+            }
+            .what-others-say-figure {
+                width: 100%;  /*add Andrey*/
+                height: auto; /*add Andrey*/
+            }
+        }
+
+        .css-l6c9n4,
+        [data-css-l6c9n4] {
+            font-weight: bold;
+        }
+
+        .css-1o3su4n,
+        [data-css-1o3su4n] {
+            border: 0;
+            height: 1px;
+            background-color: #fff;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 500px) {
+            .css-cy0kur,
+            [data-css-cy0kur] {
+                font-size: 16px;
+            }
+        }
+
+        .css-1kzm9c5,
+        [data-css-1kzm9c5] {
+            font-size: 17px;
+            line-height: 27px;
+        }
+
+        @media (max-width: 500px) {
+            .css-1kzm9c5,
+            [data-css-1kzm9c5] {
+                font-size: 16px;
+            }
+        }
+
+        .css-1bgv2x6,
+        [data-css-1bgv2x6] {
+            font-size: 17px;
+            line-height: 27px;
+            opacity: 0.95;
+            color: white;
+        }
+
+        @media (max-width: 500px) {
+            .css-1bgv2x6,
+            [data-css-1bgv2x6] {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .css-pnerrb,
+            [data-css-pnerrb] {
+                font-size: 17px;
+            }
+        }
+
+        .css-1dml9,
+        [data-css-1dml9] {
+            font-size: 19px;
+            line-height: 30px;
+            opacity: 0.6;
+            color: white;
+            max-width: 100% /*add Andrey for IE*/
+        }
+
+        @media (max-width: 500px) {
+            .css-1dml9,
+            [data-css-1dml9] {
+                font-size: 17px;
+            }
+        }
+
+        .blur1 {
+            padding: 40px;
+            background-color: #2E8B57;
+            border-radius: 40px;
+            opacity: 0.9;
+            max-width: 100%; /*add Andrey for IE*/
+        }
+
+        .css-pmfh9d,
+        [data-css-pmfh9d] {
+            min-height: 400px;
+            max-width: 80%;
+        }
+
+        @media (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi) {
+            .css-1mgbaqf,
+            [data-css-1mgbaqf] {
+                background-image: url('static/images/header@2x.jpg');
+            }
+        }
+
+        .css-y5dqzu,
+        [data-css-y5dqzu] {
+            background: transparent url('static/images/header.jpg') no-repeat top center;
+            opacity: 0.9;
+            background-size: cover;
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        @media (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi) {
+            .css-y5dqzu,
+            [data-css-y5dqzu] {
+                background-image: url('static/images/header@2x.jpg');
+            }
+        }
+
+        @media (max-width: 768px) {
+            .css-hj02tc,
+            [data-css-hj02tc] {
+                padding-top: 5rem;
+                padding-bottom: 5rem;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .css-1rwww16,
+            [data-css-1rwww16] {
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+        }
+
+        .css-ig4kfq,
+        [data-css-ig4kfq] {
+            padding-top: 7rem;
+            padding-bottom: 7rem;
+        }
+
+        @media (max-width: 768px) {
+            .css-ig4kfq,
+            [data-css-ig4kfq] {
+                padding-top: 5rem;
+                padding-bottom: 5rem;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .css-ig4kfq,
+            [data-css-ig4kfq] {
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+        }
+
+        .css-1w8x3at,
+        [data-css-1w8x3at] {
+            padding-top: 7rem;
+            padding-bottom: 7rem;
+            background: #3C3D41;
+        }
+
+        @media (max-width: 768px) {
+            .css-1w8x3at,
+            [data-css-1w8x3at] {
+                padding-top: 5rem;
+                padding-bottom: 5rem;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .css-1w8x3at,
+            [data-css-1w8x3at] {
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+        }
+
+        .css-1v9lt9w,
+        [data-css-1v9lt9w] {
+            padding-top: 7rem;
+            padding-bottom: 7rem;
+            background: white;
+            color: #656B6F;
+        }
+
+        @media (max-width: 768px) {
+            .css-1v9lt9w,
+            [data-css-1v9lt9w] {
+                padding-top: 5rem;
+                padding-bottom: 5rem;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .css-1v9lt9w,
+            [data-css-1v9lt9w] {
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+        }
+
+        .css-19tba64,
+        [data-css-19tba64] {
+            padding-top: 7rem;
+            padding-bottom: 7rem;
+            background: #F9F9F9;
+            color: #656B6F;
+        }
+
+        @media (max-width: 768px) {
+            .css-19tba64,
+            [data-css-19tba64] {
+                padding-top: 5rem;
+                padding-bottom: 5rem;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .css-19tba64,
+            [data-css-19tba64] {
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+        }
+
+        .css-yz7uwt,
+        [data-css-yz7uwt] {
+            padding-top: 7rem;
+            padding-bottom: 7rem;
+            color: white;
+            background: #2E8B57;
+        }
+
+        @media (max-width: 768px) {
+            .css-yz7uwt,
+            [data-css-yz7uwt] {
+                padding-top: 5rem;
+                padding-bottom: 5rem;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .css-yz7uwt,
+            [data-css-yz7uwt] {
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+        }
+
+        .css-6ubcx2 br,
+        [data-css-6ubcx2] br {
+            display: none;
+        }
+
+        @media (max-width: 1155px) {
+            .css-1pnhyji br,
+            [data-css-1pnhyji] br {
+                display: none;
+            }
+        }
+
+        .css-1jkqvaw h4,
+        [data-css-1jkqvaw] h4 {
+            color: white;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 6px;
+        }
+
+        .css-ppr32l p,
+        [data-css-ppr32l] p {
+            font-size: 14px;
+        }
+
+        .css-1isq5vb,
+        [data-css-1isq5vb] {
+            padding-bottom: 1rem;
+        }
+
+        .css-1isq5vb h4,
+        [data-css-1isq5vb] h4 {
+            color: white;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 6px;
+        }
+
+        .css-1isq5vb p,
+        [data-css-1isq5vb] p {
+            font-size: 14px;
+        }
+
+        .css-1g9g5en img,
+        [data-css-1g9g5en] img {
+            margin-bottom: 15px;
+            height: 31px;
+            opacity: 0.88;
+        }
+
+        .css-1bghbx2 img,
+        [data-css-1bghbx2] img {
+            margin-bottom: 30px;
+            height: 71px;
+            opacity: 0.88;
+        }
+
+        .css-1c7p6cq h4,
+        [data-css-1c7p6cq] h4 {
+            color: #3C3D41;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 6px;
+        }
+
+        .css-b6bdhg p,
+        [data-css-b6bdhg] p {
+            font-size: 14px;
+            color: color(#656B6F alpha(-12%));
+        }
+
+        .css-7crta8,
+        [data-css-7crta8] {
+            padding-right: 2rem;
+            padding-bottom: 3rem;
+        }
+
+        .css-7crta8 h4,
+        [data-css-7crta8] h4 {
+            color: #3C3D41;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 6px;
+        }
+
+        .css-7crta8 p,
+        [data-css-7crta8] p {
+            font-size: 14px;
+            color: color(#656B6F alpha(-12%));
+        }
+
+        .css-17vikwk,
+        [data-css-17vikwk] {
+            font-size: 3rem;
+        }
+
+        .css-1n3cvzt,
+        [data-css-1n3cvzt] {
+            font-size: 2rem;
+        }
+
+        .css-1xblj4,
+        [data-css-1xblj4] {
+            color: #2E8B57;
+        }
+
+        .css-1abdb54,
+        [data-css-1abdb54] {
+            color: black;
+            opacity: 0.2;
+        }
+
+        @media (max-width: 850px) {
+            .css-1wbfgl9,
+            [data-css-1wbfgl9] {
+                width: 100%;
+                margin-bottom: 3rem;
+            }
+        }
+
+        .css-63oe3q,
+        [data-css-63oe3q] {
+            width: 100%;
+        }
+
+        .css-1fgryxm>li:nth-child(2n+1),
+        [data-css-1fgryxm]>li:nth-child(2n+1) {
+            padding-left: 0;
+        }
+
+        @media (max-width: 850px) {
+            .css-bstx81,
+            [data-css-bstx81] {
+                width: 100%;
+            }
+            .css-bstx81>li:nth-child(2n+1),
+            [data-css-bstx81]>li:nth-child(2n+1) {
+                padding-left: 0;
+            }
+        }
+
+        .css-jhzy03:last-child,
+        [data-css-jhzy03]:last-child,
+        .css-jhzy03[data-simulate-lastchild],
+        [data-css-jhzy03][data-simulate-lastchild] {
+            padding-bottom: 0rem;
+        }
+
+        .css-tzzsel,
+        [data-css-tzzsel] {
+            width: 100%;
+            padding-bottom: 3rem;
+            padding-left: 0;
+            padding-right: 0;
+            text-align: center;
+        }
+
+        .css-tzzsel:last-child,
+        [data-css-tzzsel]:last-child,
+        .css-tzzsel[data-simulate-lastchild],
+        [data-css-tzzsel][data-simulate-lastchild] {
+            padding-bottom: 0rem;
+        }
+
+        .css-1gdilrq>li,
+        [data-css-1gdilrq]>li {
+            width: 100%;
+            padding-bottom: 3rem;
+            padding-left: 0;
+            padding-right: 0;
+            text-align: center;
+        }
+
+        .css-1gdilrq>li:last-child,
+        [data-css-1gdilrq]>li:last-child {
+            padding-bottom: 0rem;
+        }
+
+        @media (max-width: 520px) {
+            .css-1oeemcn>li,
+            [data-css-1oeemcn]>li {
+                width: 100%;
+                padding-bottom: 3rem;
+                padding-left: 0;
+                padding-right: 0;
+                text-align: center;
+            }
+            .css-1oeemcn>li:last-child,
+            [data-css-1oeemcn]>li:last-child {
+                padding-bottom: 0rem;
+            }
+        }
+
+        @media (max-width: 850px) {
+            .css-oq3l00,
+            [data-css-oq3l00] {
+                width: 100%;
+            }
+       
+        }
+
+        @media (max-width: 520px) {
+            .css-oq3l00>li,
+            [data-css-oq3l00]>li {
+                width: 100%;
+                padding-bottom: 3rem;
+                padding-left: 0;
+                padding-right: 0;
+                text-align: center;
+            }
+            .css-oq3l00>li:last-child,
+            [data-css-oq3l00]>li:last-child {
+                padding-bottom: 0rem;
+            }
+        }
+
+        .css-1bcuzxu,
+        [data-css-1bcuzxu] {
+            color: white;
+            font-family: Montserrat;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2.55px;
+            line-height: 18px;
+            font-size: 11px;
+        }
+
+        .css-lumqik,
+        [data-css-lumqik] {
+            color: #3C3D41;
+            font-family: Montserrat;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2.55px;
+            line-height: 18px;
+            font-size: 11px;
+        }
+
+        .css-1tmmbrj:hover,
+        [data-css-1tmmbrj]:hover,
+        .css-1tmmbrj[data-simulate-hover],
+        [data-css-1tmmbrj][data-simulate-hover] {
+            opacity: 1;
+        }
+
+        .css-j9yb5g,
+        [data-css-j9yb5g] {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            margin-right: 10px;
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+        .css-j9yb5g:hover,
+        [data-css-j9yb5g]:hover,
+        .css-j9yb5g[data-simulate-hover],
+        [data-css-j9yb5g][data-simulate-hover] {
+            opacity: 1;
+        }
+
+        .css-u7q1iu,
+        [data-css-u7q1iu] {
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            -webkit-box-lines: multiple;
+            flex-wrap: wrap;
+        }
+
+        .css-1q1xq2l,
+        [data-css-1q1xq2l] {
+            opacity: 1;
+        }
+
+        .css-15jn2pk,
+        [data-css-15jn2pk] {
+            padding-bottom: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #DDDDDD;
+        }
+
+        .css-i35u7h,
+        [data-css-i35u7h] {
+            height: 0;
+            width: 0;
+        }
+
+        .css-1fj05c0,
+        [data-css-1fj05c0] {
+            color: #3C3D41;
+            font-size: 32px;
+        }
+
+        .css-wjc1a1,
+        [data-css-wjc1a1] {
+            font-size: 15px;
+            color: #656B6F;
+            font-family: pt-serif !important;
+            font-weight: normal;
+        }
+
+        @media (max-width: 1100px) {
+            .css-1a6kqfx,
+            [data-css-1a6kqfx] {
+                display: none;
+            }
+        }
+
+        .css-q561ur,
+        [data-css-q561ur] {
+            position: absolute;
+            left: 0;
+            bottom: -7rem;
+            max-height: 650px;
+        }
+
+        @media (max-width: 1100px) {
+            .css-q561ur,
+            [data-css-q561ur] {
+                display: none;
+            }
+        }
+
+        @media (max-width: 1100px) {
+            .css-1tryd51,
+            [data-css-1tryd51] {
+                width: 100%;
+            }
+        }
+
+        .css-13oyx6n,
+        [data-css-13oyx6n] {
+            height: 1px;
+            background-color: #dddddd;
+            position: absolute;
+            top: 57%;
+            width: 100%;
+            z-index: 1;
+            opacity: 0.3;
+            border-left:0;
+            border-right: 0;
+        }
+
+        .css-dac4r5,
+        [data-css-dac4r5] {
+            z-index: 2;
+            position: relative;
+        }
+
+        .css-1x7bls8 img,
+        [data-css-1x7bls8] img {
+            height: 25px;
+        }
+
+        .css-13kgc,
+        [data-css-13kgc] {
+            cursor: pointer;
+        }
+
+        .css-13kgc img,
+        [data-css-13kgc] img {
+            height: 25px;
+        }
+
+        .css-19om1qw,
+        [data-css-19om1qw] {
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            background-color: #DDDDDD;
+        }
+
+        .css-1efyihz,
+        [data-css-1efyihz] {
+            background-color: #2E8B57;
+        }
+
+        @media (max-width: 520px) {
+            .css-1n8sbms,
+            [data-css-1n8sbms] {
+                opacity: 0;
+            }
+        }
+
+        .css-1yzv4vw,
+        [data-css-1yzv4vw] {
+            opacity: 0.3;
+        }
+
+        @media (max-width: 520px) {
+            .css-1yzv4vw,
+            [data-css-1yzv4vw] {
+               opacity: 0;
+               font-size: 0;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .css-3bpb81,
+            [data-css-3bpb81] {
+                display: block;
+                margin-top: -4rem;
+                text-align: center;
+            }
+        }
+
+        .css-13ewo68,
+        [data-css-13ewo68] {
+            display: none;
+        }
+
+        @media (max-width: 520px) {
+            .css-13ewo68,
+            [data-css-13ewo68] {
+                display: block;
+                margin-top: -4rem;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .css-12lhpyt,
+            [data-css-12lhpyt] {
+                width: 100%;
+            }
+        }
+
+        .css-1395lha>li,
+        [data-css-1395lha]>li {
+            width: 50%;
+        }
+
+        .css-jx2urs>li:last-child,
+        [data-css-jx2urs]>li:last-child {
+            padding-bottom: 0;
+        }
+
+        @media (max-width: 880px) {
+            .css-1l7hbk1>li,
+            [data-css-1l7hbk1]>li {
+                width: 50%;
+            }
+            .css-1l7hbk1>li:last-child,
+            [data-css-1l7hbk1]>li:last-child {
+                padding-bottom: 0;
+            }
+        }
+
+        .css-51lmcb>li,
+        [data-css-51lmcb]>li {
+            width: 100%;
+            padding-bottom: 2rem;
+        }
+
+        @media (max-width: 520px) {
+            .css-11i28x5>li,
+            [data-css-11i28x5]>li {
+                width: 100%;
+                padding-bottom: 2rem;
+            }
+            .css-11i28x5>li:last-child,
+            [data-css-11i28x5]>li:last-child {
+                padding-bottom: 0;
+            }
+        }
+
+        @media (max-width: 880px) {
+            .css-cz5rna>li,
+            [data-css-cz5rna]>li {
+                width: 50%;
+            }
+            .css-cz5rna>li:last-child,
+            [data-css-cz5rna]>li:last-child {
+                padding-bottom: 0;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .css-cz5rna>li,
+            [data-css-cz5rna]>li {
+                width: 100%;
+                padding-bottom: 2rem;
+            }
+            .css-cz5rna>li:last-child,
+            [data-css-cz5rna]>li:last-child {
+                padding-bottom: 0;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .css-1or2kzf,
+            [data-css-1or2kzf] {
+                font-size: 25px;
+                letter-spacing: 0;
+            }
+        }
+
+        .css-1ti5lzy,
+        [data-css-1ti5lzy] {
+            font-size: 29px;
+            letter-spacing: -1.5px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 500px) {
+            .css-1ti5lzy,
+            [data-css-1ti5lzy] {
+                font-size: 25px;
+                letter-spacing: 0;
+            }
+        }
+
+        .css-fl9ejd,
+        [data-css-fl9ejd] {
+            font-family: Montserrat;
+            color: white;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0px;
+            font-style: normal;
+        }
+
+        .css-orvpl1,
+        [data-css-orvpl1] {
+            font-size: 14px;
+            color: color(white alpha(-12%));
+        }
+
+        @media (max-width: 500px) {
+            .css-nu970m,
+            [data-css-nu970m] {
+                padding: 10px 15px;
+            }
+        }
+
+        .css-cdjkih span,
+        [data-css-cdjkih] span {
+            color: white;
+        }
+
+        .css-8vcs0j,
+        [data-css-8vcs0j] {
+            position: absolute;
+            cursor: pointer;
+            top: 40%;
+            opacity: 0.55;
+            color: white;
+            padding: 19px 25px;
+        }
+
+        .css-8vcs0j span,
+        [data-css-8vcs0j] span {
+            color: white;
+        }
+
+        .css-8vcs0j:hover,
+        [data-css-8vcs0j]:hover,
+        .css-8vcs0j[data-simulate-hover],
+        [data-css-8vcs0j][data-simulate-hover] {
+            opacity: 1;
+        }
+
+        @media (max-width: 500px) {
+            .css-8vcs0j,
+            [data-css-8vcs0j] {
+                padding: 10px 15px;
+            }
+        }
+
+        .css-6td5ch,
+        [data-css-6td5ch] {
+            position: absolute;
+            cursor: pointer;
+            top: 40%;
+            opacity: 0.55;
+            color: white;
+            padding: 19px 25px;
+            right: -10%;
+        }
+
+        .css-6td5ch span,
+        [data-css-6td5ch] span {
+            color: white;
+        }
+
+        .css-6td5ch:hover,
+        [data-css-6td5ch]:hover,
+        .css-6td5ch[data-simulate-hover],
+        [data-css-6td5ch][data-simulate-hover] {
+            opacity: 1;
+        }
+
+        @media (max-width: 500px) {
+            .css-6td5ch,
+            [data-css-6td5ch] {
+                padding: 10px 15px;
+            }
+        }
+
+        .css-r0oefm,
+        [data-css-r0oefm] {
+            position: absolute;
+            cursor: pointer;
+            top: 40%;
+            opacity: 0.55;
+            color: white;
+            padding: 19px 25px;
+            left: -10%;
+        }
+
+        .css-r0oefm span,
+        [data-css-r0oefm] span {
+            color: white;
+        }
+
+        .css-r0oefm:hover,
+        [data-css-r0oefm]:hover,
+        .css-r0oefm[data-simulate-hover],
+        [data-css-r0oefm][data-simulate-hover] {
+            opacity: 1;
+        }
+
+        @media (max-width: 500px) {
+            .css-r0oefm,
+            [data-css-r0oefm] {
+                padding: 10px 15px;
+            }
+        }
+
+        .css-2e9t8s,
+        [data-css-2e9t8s] {
+            background-color: #222325;
+        }
+
+        .css-m7b1sn,
+        [data-css-m7b1sn] {
+            font-size: 15px;
+            opacity: 0.4;
+            text-align: center;
+            color: white;
+        }
+
+        @-webkit-keyframes load8_voj7hh {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @-moz-keyframes load8_voj7hh {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @-o-keyframes load8_voj7hh {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes load8_voj7hh {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        .css-1px0wsl::after,
+        [data-css-1px0wsl]::after,
+        .css-1px0wsl[data-simulate-after],
+        [data-css-1px0wsl][data-simulate-after] {
+            border-radius: 50%;
+            width: 10em;
+            height: 10em;
+        }
+
+        .css-1ym0qub,
+        [data-css-1ym0qub] {
+            -webkit-transform: translateZ(0);
+            -ms-transform: translateZ(0);
+            -webkit-animation: load8_voj7hh 1.1s infinite linear;
+            text-indent: -9999em;
+            display: inline-block;
+            font-size: 2px;
+            position: absolute;
+            left: -15em;
+            top: 50%;
+            margin-top: -5em;
+            width: 10em;
+            border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+            border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+            border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+            border-left: 1.1em solid #ffffff;
+            border-radius: 50%;
+            height: 10em;
+            transform: translateZ(0);
+            vertical-align: bottom;
+            animation: load8_voj7hh 1.1s infinite linear;
+        }
+
+        .css-1ym0qub::after,
+        [data-css-1ym0qub]::after,
+        .css-1ym0qub[data-simulate-after],
+        [data-css-1ym0qub][data-simulate-after] {
+            border-radius: 50%;
+            width: 10em;
+            height: 10em;
+        }
+
+        .css-13azwyo,
+        [data-css-13azwyo] {
+            position: relative;
+        }
+
+        .css-nxetyb,
+        [data-css-nxetyb] {
+            line-height: 1.5;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            color: white;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.15);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            outline: none;
+        }
+
+        .css-wfmj5e,
+        [data-css-wfmj5e] {
+            padding-left: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            color: white;
+            font-size: 14px;
+            line-height: 1.5;
+            background: rgba(255, 255, 255, 0.15);
+            padding-right: 1rem;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            outline: none;
+            resize: none;
+        }
+
+        @media screen and (max-width: 950px) {
+            .css-ultmdj,
+            [data-css-ultmdj] {
+                width: 80%;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .css-13y6567,
+            [data-css-13y6567] {
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 950px) {
+            .css-1oi6607,
+            [data-css-1oi6607] {
+                width: 80%;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .css-1oi6607,
+            [data-css-1oi6607] {
+                width: 100%;
+            }
+        }
+
+        .css-c3pmy9,
+        [data-css-c3pmy9] {
+            color: #000;
+            background: #fff;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            position: absolute;
+            font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif;
+            text-align: center;
+            padding-top: 20%;
+        }
+
+        .css-is61ry,
+        [data-css-is61ry] {
+            display: inline-block;
+            text-align: left;
+            line-height: 49px;
+            height: 49px;
+            vertical-align: middle;
+        }
+
+        .css-1w8juxp,
+        [data-css-1w8juxp] {
+            display: inline-block;
+            border-right: 1px solid rgba(0, 0, 0, .3);
+            margin: 0;
+            margin-right: 20px;
+            padding: 10px 23px;
+            font-size: 24px;
+            font-weight: 500;
+            vertical-align: top;
+        }
+
+        .css-qs2r93,
+        [data-css-qs2r93] {
+            font-size: 14px;
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+        }
+        @media (max-width:768px){
+            .nav-link{
+                height: 0px;
+            
+            }
+            .nav-text{
+                line-height: 0px;
+            }
+            .fix-height{
+                line-height: 80px; 
+                height: 80px;
+                top: 0px;
+            }
+        }
+    </style>
+    <style>
+        @font-face {
+            font-family: uc-nexus-iconfont;
+            src: url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff) format('woff'), url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf) format('truetype')
+        }
+    </style>
+    <!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '183333599643762');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" alt=""
+    src="https://www.facebook.com/tr?id=183333599643762&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
 </head>
-<body>
-	
+
+<body class="site-ready">
+    <!-- add Andrey Preloader-->
+  <div class="preloader">
+    <div class="preloader__row">
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+    </div>
+  </div>
+    <!-- Preloader: Finish -->
+    <nav class="nav nav--fixed" id="nav-collapsed">
+        <ul class="nav-list onload-fade-in onload-fade-in--aside">
+            <li class="nav-item nav-item--inline nav-item--left">
+                <a class="nav-link nav-link--center" rel=noopener target=_blank href=https://github.com/probojnik onclick="ga('send', 'event', 'Github')">
+                    <svg aria-hidden="true" class="octicon octicon-mark-github" height="28" version="1.1" viewBox="0 0 16 16" width="28">
+                        <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+                    </svg>
+                </a>
+                <button type="button" id="button-collapsed" class="nav-link nav-link--collapsed" aria-expanded="false">
+                    <!--<input type="checkbox" />-->
+                    <span class="icon-bar" id="span1"></span>
+                    <span class="icon-bar" id="span2"></span>
+                    <span class="icon-bar" id="span3"></span>
+                </button>
+            </li>
+            <li class="nav-item nav-item--inline nav-item--sh-collapsed nav-item--right">
+                <button type="button" id="nav-link" class="nav-link" data-toggle="modal" data-target="#contactFormModal" data-backdrop="false" data-keyboard="false"
+                    onclick="ga('send', 'event', 'Contact us')">
+                    <span class="nav-text">Contact Us</span>
+                </button>
+            </li>
+            <li class="nav-item nav-item--inline nav-item--sh-collapsed nav-item--right">
+                <!--<a class="nav-link" rel="noopener" target="_blank" href="https://www.behance.net/probojnik" onclick="ga('send', 'event', 'Portfolio')">-->
+                <a class="nav-link nav-link-btn" id="nav-link" rel="noopener" href="#portfolio" onclick="ga('send', 'event', 'Portfolio')">
+                    <span class="nav-text">Portfolio</span>
+                </a>
+            </li>
+            <li class="nav-item nav-item--inline nav-item--sh-collapsed nav-item--right">
+                <a class="nav-link"  id="nav-link" rel="noopener" target="_blank" href="https://medium.com/@Devsteam.mobi" onclick="ga('send', 'event', 'Blog')">
+                    <span class="nav-text">Blog</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main">  
+        <div id="__next">
+            <div data-reactroot="" data-reactid="1" data-react-checksum="1871609287">
+
+                <header class="flex flex-auto flex-column flex-end py2 css-y5dqzu" data-reactid="3">
+                    <div data-css-1aa1zjj="" class="css-pmfh9d flex flex-auto flex-column items-center justify-center" data-reactid="19">
+                        <div class="blur1">
+                            <h1 class="css-jjm9bz mb2 text-center" data-reactid="20">
+                                We Listen. We Create. We Share. We Know Mobile
+                            </h1>
+                            <p class="css-1kzm9c5 css-1bgv2x6 center" data-reactid="23">
+                                Specializing in
+                                <strong data-reactid="27">React Native</strong>, 
+                                <strong data-reactid="27">Flutter</strong>, 
+                                <strong data-reactid="29">iOS</strong>, and
+                                <strong data-reactid="31">Android</strong>
+                            </p>
+                        </div>
+                    </div>
+                </header>
+                <main data-reactid="34">
+                    <section data-css-1w8x3at="" id="aboutus" data-reactid="35">
+                        <div data-css-1aa1zjj="" class="flex flex-column center items-center" data-reactid="36">
+                            <h1 class="css-jjm9bz mb3 css-l6c9n4" data-reactid="37">Highly Qualified</h1>
+                            <p class="css-1pnhyji mb4 mt1 css-1kzm9c5 css-1dml9" data-reactid="38">
+                                We are a small but extremely
+                                <b data-reactid="40">skilled, highly specialized </b>
+                                group of
+                                <b data-reactid="42">React Native / Flutter developers</b>
+                                , all with strong backgrounds in
+                                <br data-reactid="44"> the open-source community, and we're here for your larger projects which require that next
+                                level of talent.
+                                <br data-reactid="48"> Whether you need an app or looking to boost your team expertise in Javascript, we are ready
+                                to help!
+                            </p>
+                            <a href="#DevsTeam_mobi" target="_self" class="py2 css-1hhe3gs css-gql76z" data-reactid="50">How we work</a>
+                        </div>
+                    </section>
+
+                    <section id="how-we-work" class="css-1v9lt9w" data-reactid="96">
+                        <div data-css-1aa1zjj="" class="flex flex-row flex-wrap justify-between" data-reactid="97">
+                            <div class="css-1wbfgl9 col-5" data-reactid="98">
+                                <h1 class="css-jjm9bz mb25 css-1ol3jh7 css-l6c9n4" data-reactid="99">Your direction,
+                                    <br data-reactid="101">our code</h1>
+                                <p class="mb25 css-1kzm9c5" data-reactid="103">Hiring a software house might feel like a painful process. Task management, delays, poor
+                                    communication - time to forget all of that.</p>
+                                <p class="mb25 css-1kzm9c5" data-reactid="104">We fit perfectly into your organization and will operate autonomously under your leadership
+                                    to deliver a great product.</p>
+                                <p class="mb35 css-1kzm9c5" data-reactid="105">Don't count on a questionable freelancer team without a proven track record. We're truly
+                                    here to help you, and want you to know you're in good hands.</p>
+                                <button type="button" id="nav-link" data-toggle="modal" data-target="#contactFormModal" data-backdrop="false" data-keyboard="false"
+                    onclick="ga('send', 'event', 'Contact us')" class="py2 css-1hhe3gs css-gql76z" data-reactid="106">Hire us</button>
+                            </div>
+                            <ul class="css-oq3l00 col-6 flex flex-wrap width" data-reactid="107">
+                                <li class="px2 col-3 col-6 css-7crta8 css-1g9g5en" data-reactid="108">
+                                    <span class="icon icon-ss-air-1 css-1n3cvzt css-1xblj4" data-reactid="109"></span>
+                                    <h4 data-reactid="110">Future-proof</h4>
+                                    <p data-reactid="111">We make sure your app is not only on the cutting edge, but rock solid in the long-term.</p>
+                                </li>
+                                <li class="px2 col-3 col-6 css-7crta8 css-1g9g5en" data-reactid="112">
+                                    <span class="icon icon-ss-air-2 css-1n3cvzt css-1xblj4" data-reactid="113"></span>
+                                    <h4 data-reactid="114">Always in touch</h4>
+                                    <p data-reactid="115">
+                                        We're happy to use any software that you prefer, whether It's Slack, Asana, Trello, etc.
+
+                                    </p>
+                                </li>
+                                <li class="px2 col-3 col-6 css-7crta8 css-1g9g5en" data-reactid="120">
+                                    <span class="icon icon-ss-air-4 css-1n3cvzt css-1xblj4" data-reactid="121"></span>
+                                    <h4 data-reactid="122">Pay as you go</h4>
+                                    <p data-reactid="123">We are your very personal, full-time employees. Say goodbye to unrealistic quotes.</p>
+                                </li>
+                                <li class="px2 col-3 col-6 css-7crta8 css-1g9g5en" data-reactid="124">
+                                    <span class="icon icon-ss-air-7 css-1n3cvzt css-1xblj4" data-reactid="125"></span>
+                                    <h4 data-reactid="126">Private NPM</h4>
+                                    <p data-reactid="127">
+                                        We use self-hosted NPM to store all your modules. It's never been more personal.
+
+                                    </p>
+                                </li>
+                                <li class="px2 col-3 col-6 css-7crta8 undefined css-1g9g5en" data-reactid="100">
+                                    <span class="icon icon-ss-air-9 css-1n3cvzt css-1xblj4" data-reactid="132"></span>
+                                    <h4 data-reactid="133">Privacy</h4>
+                                    <p data-reactid="134">
+                                        We take your project privacy very seriously. We're willing to sign an NDA if required.
+
+                                    </p>
+                                </li>
+                                <li class="px2 col-3 col-6 css-7crta8 undefined css-1g9g5en" data-reactid="138">
+                                    <span class="icon icon-ss-air-6 css-1n3cvzt css-1xblj4" data-reactid="139"></span>
+                                    <h4 data-reactid="140">Native Apps</h4>
+                                    <p data-reactid="141">We are React Native / Flutter experts, so you can rapidly launch your app on both Android and iOS.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section id="DevsTeam_mobi" class="css-19tba64" data-reactid="142">
+                        <div class="flex flex-column center items-center" data-reactid="143">
+                            <hgroup class="mb3" data-reactid="144">
+                                <h2 class="mb1 css-lumqik" data-reactid="145">Project Lifecycle</h2>
+                                <h1 class="css-jjm9bz mb3 css-1ol3jh7 css-l6c9n4" data-reactid="146">Our process DevsTeam.mobi</h1>
+                            </hgroup>
+                            <div class="undefined col-12 mb4 relative" data-reactid="147">
+                                <div data-css-1aa1zjj="" data-reactid="148">
+                                    <ul class="flex flex-row items-center justify-between css-dac4r5" data-reactid="149">
+                                        <li class="css-13kgc col-2 flex flex-column items-center" onclick="life_cycle(0)">
+                                            <span class="icon icon-ss-air-9 css-1n3cvzt css-1xblj4" id="icon_0" data-reactid="151"></span>
+                                            <div class="css-19om1qw mt1 mb2 css-1efyihz" id="dot_0" data-reactid="152"></div>
+                                            <h2 class="css-1n8sbms css-lumqik" id="under_text_0" data-reactid="153">Research</h2>
+                                        </li>
+                                        <li class="css-13kgc col-2 flex flex-column items-center" onclick="life_cycle(1)">
+                                            <span class="icon icon-ss-air-11 css-1n3cvzt css-1abdb54" id="icon_1" data-reactid="155"></span>
+                                            <div class="css-19om1qw mt1 mb2" id="dot_1" data-reactid="156"></div>
+                                            <h2 class="css-1yzv4vw css-lumqik" id="under_text_1" data-reactid="157">Development</h2>
+                                        </li>
+                                        <li class="css-13kgc col-2 flex flex-column items-center" onclick="life_cycle(2)">
+                                            <span class="icon icon-ss-air-13 css-1n3cvzt css-1abdb54" id="icon_2" data-reactid="159"></span>
+                                            <div class="css-19om1qw mt1 mb2" id="dot_2" data-reactid="160"></div>
+                                            <h2 class="css-1yzv4vw  css-lumqik" id="under_text_2" data-reactid="161">Testing</h2>
+                                        </li>
+                                        <li class="css-13kgc col-2 flex flex-column items-center" onclick="life_cycle(3)">
+                                            <span class="icon icon-ss-air-14 css-1n3cvzt css-1abdb54" id="icon_3" data-reactid="163"></span>
+                                            <div class="css-19om1qw mt1 mb2" id="dot_3" data-reactid="164"></div>
+                                            <h2 class="css-1yzv4vw css-lumqik" id="under_text_3" data-reactid="165">Production</h2>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <hr class="css-13oyx6n" data-reactid="166">
+                            </div>
+                            <div data-css-1aa1zjj="" class="flex flex-row flex-wrap text-left" data-reactid="167">
+                                <h1 class="css-jjm9bz css-13ewo68 px2 css-1ol3jh7 css-l6c9n4" data-reactid="168">Testing</h1>
+                                <div class="css-12lhpyt col-6 px2" data-reactid="169">
+                                    <p class="mb2 css-1kzm9c5" id="DevsTeam_mobi_1">The discovery and research phase is critically important to the success of your product.</p>
+                                    <p class="mb2 css-1kzm9c5" data-reactid="171" id="DevsTeam_mobi_2">But, It's not your job to struggle through it alone; we are there to guide you through
+                                        all the unknowns.</p>
+                                </div>
+                                <div class="css-12lhpyt col-6 px2" data-reactid="172">
+                                    <p class="mb2 css-1kzm9c5" data-reactid="173" id="DevsTeam_mobi_3">Once we've reviewed your concept, we will architech the most appropriate back and front-end
+                                        stack.
+                                    </p>
+                                    <p class="mb2 css-1kzm9c5" data-reactid="174" id="DevsTeam_mobi_4">For this phase, be ready for suggestions; our team treats all projects as if they were
+                                        their own startups!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="services" class="css-1v9lt9w" data-reactid="175">
+                        <div data-css-1aa1zjj="" class="flex flex-column items-center" data-reactid="176">
+                            <hgroup class="center mb3" data-reactid="177">
+                                <h2 class="mb1 css-lumqik" data-reactid="178">What we can do for you</h2>
+                                <h1 class="css-jjm9bz mb3 css-1ol3jh7 css-l6c9n4" data-reactid="179">Our services</h1>
+                            </hgroup>
+                            <ul class="css-cz5rna flex flex-row flex-wrap justify-center width " data-reactid="180">
+                                <li class="px2 col-3 col-4 css-7crta8 css-1g9g5en center" data-reactid="181">
+                                    <span class="icon icon-ss-air-17 css-1n3cvzt css-1xblj4" data-reactid="182"></span>
+                                    <h4 data-reactid="183">Web apps</h4>
+                                    <p data-reactid="184">Stunning web apps with React.js, Vue.js or any other framework of your choice</p>
+                                </li>
+                                <li class="px2 col-3 col-4 css-7crta8 css-1g9g5en center" data-reactid="185">
+                                    <span class="icon icon-ss-air-18 css-1n3cvzt css-1xblj4" data-reactid="186"></span>
+                                    <h4 data-reactid="187">Mobile apps</h4>
+                                    <p data-reactid="188">iOS / Android apps with help of React Native / Flutter, though we also do fully native ones</p>
+                                </li>
+                                <li class="px2 col-3 col-4 css-7crta8 css-1g9g5en center" data-reactid="189">
+                                    <span class="icon icon-ss-air-22 css-1n3cvzt css-1xblj4" data-reactid="190"></span>
+                                    <h4 data-reactid="191">Backend servers</h4>
+                                    <p data-reactid="192">Real-time backend servers, primarly written in Node.js, Golang and MongoDB</p>
+                                </li>
+                                <li class="px2 col-3 col-4 css-7crta8 undefined css-1g9g5en center" data-reactid="193">
+                                    <span class="icon icon-ss-air-21 css-1n3cvzt css-1xblj4" data-reactid="194"></span>
+                                    <h4 data-reactid="195">Workshops</h4>
+                                    <p data-reactid="196">We love sharing knowledge with others during our in-house trainings</p>
+                                </li>
+                                <li class="px2 col-3 col-4 css-7crta8 undefined css-1g9g5en center" data-reactid="197">
+                                    <span class="icon icon-ss-air-19 css-1n3cvzt css-1xblj4" data-reactid="198"></span>
+                                    <h4 data-reactid="199">Code review</h4>
+                                    <p data-reactid="200">If you have an app already, we can help with performance and upgrade plans</p>
+                                </li>
+                                <li class="px2 col-3 col-4 css-7crta8 undefined css-1g9g5en center" data-reactid="201">
+                                    <span class="icon icon-ss-air-24 css-1n3cvzt css-1xblj4" data-reactid="202"></span>
+                                    <h4 data-reactid="203">You tell us</h4>
+                                    <p data-reactid="204">As your very personal team, we are always ready to take a new challenge</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section id="what-others-say" class="css-yz7uwt" data-reactid="205">
+                        <div data-css-1aa1zjj="" class="flex flex-column center items-center relative" data-reactid="206">
+                            <h2 class="mb4 css-1bcuzxu" data-reactid="207">What people say</h2>
+                            <div class="col-12 what-others-say-container" data-reactid="208">
+                                <figure class="what-others-say-figure col-6 px3 text-left" data-reactid="209">
+                                    <blockquote class="css-1ti5lzy" data-reactid="210" id="review_txt_0">
+                                        We have worked on big project together with Stanislav during one year.
+                                        <br> He has great experience with Core Bluetooth framework and deep knowledge of Java.
+                                        <br> He can work with big projects and accomplish complicated tasks successfully and
+                                        in time.
+                                    </blockquote>
+                                    <footer data-reactid="211">
+                                        <cite class="css-fl9ejd" id="review_from_0" data-reactid="212">Dmitry Kapshuk</cite>
+                                        <p class="css-orvpl1" id="review_pos_0" data-reactid="213">Android Developer</p>
+                                    </footer>
+                                </figure>
+                                <figure class="what-others-say-figure col-6 px3 text-left">
+                                    <blockquote id="review_txt_1" class="css-1ti5lzy">
+                                        Stanislav is very professional and responsible developer. Very comfortable to work with him.
+                                    </blockquote>
+                                    <footer>
+                                        <cite id="review_from_1" class="css-fl9ejd">Roman Vasylchenko</cite>
+                                        <p id="review_pos_1" class="css-orvpl1">Creative Director</p>
+                                    </footer>
+                                </figure>
+                            </div>
+                            <a class="css-r0oefm" onclick="review_change(-1)" data-reactid="219">
+                                <span class="icon icon-ss-air-15 css-1n3cvzt css-1xblj4" data-reactid="220"></span>
+                            </a>
+                            <a class="css-6td5ch" onclick="review_change(1)" data-reactid="221">
+                                <span class="icon icon-ss-air-16 css-1n3cvzt css-1xblj4" data-reactid="222"></span>
+                            </a>
+                        </div>
+                    </section>
+                    <!-- begin articles -->
+                    <div id="portfolio"></div>
+                    <section class="articles" >
+                        <article class="articles__item" data-color="blue">
+                          <div class="articles__item__content container">
+                            <div class="articles__item__text">
+                              <div class="title">
+                                <div class="icon" style="background-image: url(images/portfolio/articles__buysellicon.jpg)"></div><span class="text">iBuySell</span>
+                              </div><span class="annotation">A MARKETPLACE WHERE BUYERS AND SELLERS CAN MEET</span>
+                              <div class="download"><a class="fab fa-apple" href="https://itunes.apple.com/us/app/ibuysell-shop-live-deals./id1074208767?mt=8" target="_blank"></a><a class="fab fa-android" href="https://play.google.com/store/apps/details?id=com.hotdealsatwork.ibuysell" target="_blank"></a>
+                              </div><span class="description">Sellers get access to the best buyers for their products, offer promotions and drive sale conversions for their products. So sellers move their inventory quickly and drive more profits. Buyers can buy fashion accessories at the best deals with heavy discounts. You can find discounts up to 80% on retail products.</span>
+                            </div>
+                            <div class="articles__item__img"><img alt="buysellApple" class="apple__body" src="images/portfolio/articles__buysellApple.png"><img alt="buysellAndroid" class="android__body" src="images/portfolio/articles__buysellAndroid.png">
+                            </div>
+                          </div>
+                        </article>
+                        <article class="articles__item" data-color="parkapp">
+                          <div class="articles__item__content container">
+                            <div class="articles__item__text">
+                              <div class="title">
+                                <div class="icon" style="background-image: url(images/portfolio/articles__parkappicon.jpg)"></div><span class="text">ParkApp</span>
+                              </div>
+                              <div class="download"><a class="fab fa-apple" href="https://itunes.apple.com/us/app/parkapp-parkovki-besplatno/id965261193" target="_blank"></a><a class="fab fa-android" href="https://play.google.com/store/apps/details?id=com.parkingsolutions" target="_blank"></a>
+                              </div><span class="description">Smart and fast parking guide. Free of charge parking streets and lots in the city. Vacant and about to be vacant parking spots in your city indicated with the green vehicle icons. Protect your car from being towed by receiving warnings at the moment of the app launch. Pay for parking easy and fast! (ParkApp knows your parking area and the fare rate, then composes the SMS automatically!). </span>
+                            </div>
+                            <div class="articles__item__img"><img alt="parkappApple"  class="apple__body" src="images/portfolio/articles__parkappApple.png"><img alt="parkappAndroid" class="android__body" src="images/portfolio/articles__parkappAndroid.png">
+                            </div>
+                          </div>
+                        </article>
+                        <article class="articles__item" data-color="londonclub">
+                          <div class="articles__item__content container">
+                            <div class="articles__item__text">
+                              <div class="title">
+                                <div class="icon" style="background-image: url(images/portfolio/articles__londonclubicon.jpg)"></div><span class="text">London Club Nights</span>
+                              </div>
+                              <div class="download"><a class="fab fa-apple" href="https://itunes.apple.com/in/app/london-club-nights/id1028372670" target="_blank"></a><a class="fab fa-android" href="https://play.google.com/store/apps/details?id=com.nits.londonclubnights" target="_blank"></a>
+                              </div><span class="description">Welcome to London Club Nights! Find The Best Nightclubs, Bars, Concerts & Festivals In London.Buy tickets, get on the Guest List, book a VIP Table or just browse the coolest R&B, Hip-Hop, House, Garage, Funky House, Afrobeat and Dancehall (Bashment) parties, concerts & festivals that are happening in the city of London. If you enjoy clubbing this is the app for you, so download today and discover what London has to offer!</span>
+                            </div>
+                            <div class="articles__item__img"><img alt="londonclubApple" class="apple__body" src="images/portfolio/articles__londonclubApple.png"><img alt="londonclubAndroid" class="android__body" src="images/portfolio/articles__londonclubAndroid.png">
+                            </div>
+                          </div>
+                        </article>
+                        <article class="articles__item" data-color="blue">
+                          <div class="articles__item__content container">
+                            <div class="articles__item__text">
+                              <div class="title">
+                                <div class="icon" style="background-image: url(images/portfolio/articles__perfectshadeicon.png)"></div><span class="text">PerfectShade System</span>
+                              </div>
+                              <div class="download"><a class="fab fa-apple" href="https://itunes.apple.com/ca/app/perfectshade-system/id1333024032?mt=8" target="_blank"></a><a class="fab fa-android" href="https://play.google.com/store/apps/details?id=com.PerfectShade" target="_blank"></a>
+                              </div><span class="description">The PerfectShade App is a component of the Perfectshade System, which includes a light ring that has been specially developed and calibrated to a true white light temperature of 5500K, a mobile device capable of taking pictures, and the PerfectShade App.</span>
+                            </div>
+                            <div class="articles__item__img"><img alt="perfectshadeApple" class="apple__body" src="images/portfolio/articles__perfectshadeApple.png"><img alt="perfectshadeAndroid" class="android__body" src="images/portfolio/articles__perfectshadeAndroid.png">
+                            </div>
+                          </div>
+                        </article>
+                        <article class="articles__item" data-color="trendsetter">
+                          <div class="articles__item__content container">
+                            <div class="articles__item__text">
+                              <div class="title">
+                                <div class="icon" style="background-image: url(images/portfolio/articles__trendsettericon.jpg)"></div><span class="text">Trendsetter: Rate &amp; Earn</span>
+                              </div>
+                              <div class="download"><a class="fab fa-apple" href="https://itunes.apple.com/ca/app/perfectshade-system/id1333024032?mt=8" target="_blank"></a><a class="fab fa-android" href="https://play.google.com/store/apps/details?id=com.PerfectShade" target="_blank"></a>
+                              </div><span class="description">Rate the latest products to earn rewards redeemable at your favorite retailers in the form of FREE gift cards and large discounts. Join the newest trend and start earning today!</span>
+                            </div>
+                            <div class="articles__item__img"><img alt="trendsetterApple" class="apple__body" src="images/portfolio/articles__trendsetterApple.png"><img alt="trendsetterAndroid" class="android__body" src="images/portfolio/articles__trendsetterAndroid.png">
+                            </div>
+                          </div>
+                        </article>
+                        <article class="articles__item" data-color="holdshot">
+                          <div class="articles__item__content container">
+                            <div class="articles__item__text">
+                              <div class="title">
+                                <div class="icon" style="background-image: url(images/portfolio/articles__holdshorticon.jpg)"></div><span class="text">Holdshort</span>
+                              </div>
+                              <div class="download"><a class="fab fa-apple" href="https://itunes.apple.com/us/app/holdshort/id1187603879?mt=8" target="_blank"></a><a class="fab fa-android" href="https://play.google.com/store/apps/details?id=com.holdshort" target="_blank"></a>
+                              </div><span class="description">The Holdshort App is a mobile version of the desktop aircraft scheduling app that allows you to add and manage your aircraft reservations on-the-go. </span>
+                            </div>
+                            <div class="articles__item__img"><img alt="holdshortApple" class="apple__body" src="images/portfolio/articles__holdshortApple.png"><img alt="holdshortAndroid" class="android__body" src="images/portfolio/articles__holdshortAndroid.png">
+                            </div>
+                          </div>
+                        </article>
+                        <article class="articles__item" data-color="blue">
+                          <div class="articles__item__content container">
+                            <div class="articles__item__text">
+                              <div class="title">
+                                <div class="icon" style="background-image: url(images/portfolio/articles__fiscoclicicon.jpg)"></div><span class="text">FiscoClic</span>
+                              </div>
+                              <div class="download"><a class="fab fa-apple" href="https://itunes.apple.com/us/app/fiscoclic/id1340368830?mt=8&amp;ign-mpt=uo=4" target="_blank"></a><a class="fab fa-android" href="https://play.google.com/store/apps/details?id=com.fiscoclic" target="_blank"></a>
+                              </div><span class="description">FiscoClic en la nube funciona en cualquier dispositivo las 24 horas del día con una disponibilidad garantizada del 99.99% lograda por más de 5 años consecutivos. La nueva experiencia del FiscoClic CFDI 3.3 permite que la captura de una factura promedio puede realizarse en menos de 5 segundos con el nuevo diseño de componentes inteligentes.</span>
+                            </div>
+                            <div class="articles__item__img"><img alt="fiscoclicApple" class="apple__body" src="images/portfolio/articles__fiscoclicApple.png"><img alt="fiscoclicAndroid" class="android__body" src="images/portfolio/articles__fiscoclicAndroid.png">
+                            </div>
+                          </div>
+                        </article>
+                        <article class="articles__item" data-color="holdshot">
+                          <div class="articles__item__content container">
+                            <div class="articles__item__text">
+                              <div class="title">
+                                <div class="icon" style="background-image: url(images/portfolio/articles__pawpadsicon.jpg)"></div><span class="text">Pawpads</span>
+                              </div>
+                              <div class="download"><a class="fab fa-apple" href="https://itunes.apple.com/us/app/pawpads/id1301660662?ls=1&amp;mt=8" target="_blank"></a><a class="fab fa-android" href="https://play.google.com/store/apps/details?id=saberapplications.pawpads" target="_blank"></a>
+                              </div><span class="description">PawPads is unlike your typical social media. its not a dating app, its not a facebook or telegram clone, it is not grindr for furries. It is an app designed to let you accurately find furries near you to make friends with rather than provide a central social setting. With the recent release I included public group chats for furs to socialize centrally while keeping the focus on users near you. This is entirely as a result of data driven development. I noticed people use this more during conventions so as a result i created more events focused features.</span>
+                            </div>
+                            <div class="articles__item__img"><img alt="pawpadsApple" class="apple__body" src="images/portfolio/articles__pawpadsApple.png"><img alt="pawpadsAndroid" class="android__body" src="images/portfolio/articles__pawpadsAndroid.png">
+                            </div>
+                          </div>
+                        </article>
+                        <article class="articles__item" data-color="londonclub">
+                          <div class="articles__item__content container">
+                            <div class="articles__item__text">
+                              <div class="title">
+                                <div class="icon" style="background-image: url(images/portfolio/articles__ezinviteicon.jpg)"></div><span class="text">EZinvite</span>
+                              </div>
+                              <div class="download"><a class="fab fa-apple" href="https://itunes.apple.com/us/app/ezinvite/id1306967688?mt=8" target="_blank"></a><a class="fab fa-android" href="https://play.google.com/store/apps/details?id=com.ezinvite" target="_blank"></a>
+                              </div><span class="description">EZInvite is a collaborative event/memory creation app that creates photo books of your everyday events and memories. EZinvite is a photo book app that does two lifestyle activities exceptionally well. Helps with creation of a future event, Invite guests, add gift card registry, request photos and capture the memory forever with affordable photo books. Helps with capturing memories of past events, invite friends & family to share their photos and capture that memory forever with affordable photo books</span>
+                            </div>
+                            <div class="articles__item__img"><img alt="ezinviteApple" class="apple__body" src="images/portfolio/articles__ezinviteApple.png"><img alt="ezinviteAndroid" class="android__body" src="images/portfolio/articles__ezinviteAndroid.png">
+                            </div>
+                          </div>
+                        </article>
+                        <article class="articles__item" data-color="orange">
+                          <div class="articles__item__content container">
+                            <div class="articles__item__text">
+                              <div class="title">
+                                <div class="icon" style="background-image: url(images/portfolio/articles__caresyncicon.jpg)"></div><span class="text">CareSync</span>
+                              </div>
+                              <div class="download"><a class="fab fa-apple" href="https://itunes.apple.com/us/app/caresync-all-your-familys/id635439202?mt=8&amp;ign-mpt=uo%3D4" target="_blank"></a><a class="fab fa-android" href="https://play.google.com/store/apps/details?id=com.lifedash.caresync&amp;hl=en" target="_blank"></a>
+                              </div><span class="description">CareSync makes it simple to access, organize, and securely share you and your loved ones' important health information.</span>
+                            </div>
+                            <div class="articles__item__img"><img alt="caresyncApple" class="apple__body" src="images/portfolio/articles__caresyncApple.png"><img alt="caresyncAndroid" class="android__body" src="images/portfolio/articles__caresyncAndroid.png">
+                            </div>
+                          </div>
+                        </article>
+                        <article class="articles__item" data-color="trendsetter">
+                          <div class="articles__item__content container">
+                            <div class="articles__item__text">
+                              <div class="title">
+                                <div class="icon" style="background-image: url(images/portfolio/articles__clikaticon.jpg)"></div><span class="text">Clikat</span>
+                              </div>
+                              <div class="download"><a class="fab fa-apple" href="https://itunes.apple.com/ca/app/perfectshade-system/id1333024032?mt=8" target="_blank"></a><a class="fab fa-android" href="https://play.google.com/store/apps/details?id=com.PerfectShade" target="_blank"></a>
+                              </div><span class="description">Now You Can Order Your Grocery ,Laundry, Sweet & Nuts and we deliver it right into your door step. And if you are looking for Professional House Maintenance, Baby Sitter or Cleaning Services with Few Taps within Clikat you can choose your supplier with Pre-listed prices for all services. its Huge Market Palace where you can find all your needs.</span>
+                            </div>
+                            <div class="articles__item__img"><img alt="clikatApple" class="apple__body" src="images/portfolio/articles__clikatApple.png"><img alt="clikatAndroid" class="android__body" src="images/portfolio/articles__clikatAndroid.png">
+                            </div>
+                          </div>
+                        </article>
+                        <article class="articles__item" data-color="blue">
+                          <div class="articles__item__content container">
+                            <div class="articles__item__text">
+                              <div class="title">
+                                <div class="icon" style="background-image: url(images/portfolio/articles__spinuicon.jpg)"></div><span class="text">SpinU</span>
+                              </div>
+                              <div class="download"><a class="fab fa-apple" href="https://itunes.apple.com/us/app/spinu/id1186588363?mt=8" target="_blank"></a><a class="fab fa-android" href="https://play.google.com/store/apps/details?id=com.emilence.spinu" target="_blank"></a>
+                              </div><span class="description">Are you bored with the same old way of seeing pictures? Do you want to see and share your pics in a more fun, creative way? Check out SpinU, the ultimate social app that’s where to replace likes with spins! How does SpinU work? It’s really cool and easy, all you have to do is to download the app and do a spin. The great thing here is that the images rotate as a roulette. You can swipe images from left to right pretty much like you are in a casino, waiting for your next spin! It’s a really fun and immersive concept that will get you hooked right from the start.</span>
+                            </div>
+                            <div class="articles__item__img"><img alt="spinuAppl" class="apple__body" src="images/portfolio/articles__spinuApple.png"><img alt="spinuAndroid" class="android__body" src="images/portfolio/articles__spinuAndroid.png">
+                            </div>
+                          </div>
+                        </article>
+                      </section>
+                    <!-- end articles -->
+
+                </main>
+                <footer class="footer_container">
+                    <div class="footer-text onload-fade-in onload-fade-in--aside">
+                        <button type="button"  data-toggle="modal" data-target="#contactFormModal" data-backdrop="false" data-keyboard="false"
+                        onclick="ga('send', 'event', 'Contact us')" class="py2 css-1hhe3gs css-gql76z" >Contact</button>
+                    </div>
+
+                    <div class="footer-text onload-fade-in onload-fade-in--aside"><a class="link-hover" href="/publichniy_dogovor.html" rel="nofollow">Public agreement</a> |  DevsTeam.mobi, since 2016</div>
+                </footer>
+                <button class="btn-top">
+                    <i class="material-icons">
+                    arrow_upward
+                    </i>
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+
+    <div class="section section--form section--center">
+        <div class="table">
+            <div class="table-cell">
+                <div class="modal tab" id="contactFormModal" tabindex="-1" role="dialog" aria-labelledby="contactFormModal">
+                    <div class="tab--item fade active in" id="mainState">
+                        <div class="modal-dialog modal-dialog--top-spaced">
+                            <button class="btn btn--close" type="button" data-dismiss="modal" aria-label="Close" onclick="ga('send', 'event', 'Main question close')">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div class="modal-content">
+                                <button class="btn btn--bordered btn--hover" type="button" data-toggle="tab" data-target="#newProject" onclick="ga('send', 'event', 'New project page brief')">New project inquiry</button>
+                                <button class="btn btn--bordered btn--hover" type="button" data-toggle="tab" data-target="#improveExistingProject" onclick="ga('send', 'event', 'Existing project brief')">Existing project inquiry</button>
+                                <button class="btn btn--bordered btn--hover btn-open-form" type="button" data-toggle="tab" data-target="#contactYou" onclick="ga('send', 'event', 'Leave message')"><a class="link" href="#contactYou">Just contact us</a></button> 
+                                <button class="btn btn--hidden" id="mainStateButton" type="button" data-toggle="tab" data-target="#mainState"></button>
+                                <button class="btn btn--hidden" id="successStateButton" type="button" data-toggle="tab" data-target="#successState"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab--item fade" id="newProject" tabindex="-1" role="dialog" aria-labelledby="newProject">
+                        <div class="modal-dialog">
+                            <button class="btn btn--close" type="button" data-toggle="tab" data-target="#mainState" onclick="ga('send', 'event', 'New project close')">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div class="modal-content">
+                                <h3 class="section-header section-header--white">Please answer questions below.</h3>
+                                <form action="https://script.google.com/macros/s/AKfycbyXj_elDHFY1ObTnPMLZryCDh5v-twmjGvyyL_oxDx4mYzF8mM/exec" enctype="text/plain"
+                                    method="POST" class=" form form--sm" name="newProjectForm" id="newProjectForm">
+                                    <div class="form-group">
+                                        <div class="form-group-header">What would you like to create (you can select few options)?</div>
+                                        <div class="row" id="row1">
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="1" type="checkbox" name="A0" class="form-checkbox--input" value="Android app" id="r1">
+                                                    <label for="r1" class="form-label form-checkbox--label">Android app</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="2" type="checkbox" name="A0" class="form-checkbox--input" value="Server" id="r2">
+                                                    <label for="r2" class="form-label form-checkbox--label">Server</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="3" type="checkbox" name="A0" class="form-checkbox--input" value="iOS app" id="r3">
+                                                    <label for="r3" class="form-label form-checkbox--label">iOS app</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="4" type="checkbox" name="A0" class="form-checkbox--input" value="Admin panel" id="r4">
+                                                    <label for="r4" class="form-label form-checkbox--label">Admin panel</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="5" type="checkbox" name="A0" class="form-checkbox--input" value="Web app" id="r5">
+                                                    <label for="r5" class="form-label form-checkbox--label">Web app</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="6" type="checkbox" name="A0" class="form-checkbox--input" value="Other" id="r6">
+                                                    <label for="r6" class="form-label form-checkbox--label">Other</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-group-header">
+                                            What special features would you like to add (you can select few options)?
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="7" type="checkbox" name="A1" class="form-checkbox--input" value="Working with User location and Maps" id="z1">
+                                                    <label for="z1" class="form-label form-checkbox--label">Working with User location and Maps</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="8" type="checkbox" name="A1" class="form-checkbox--input" value="On-demand services" id="z2">
+                                                    <label for="z2" class="form-label form-checkbox--label">On-demand services</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="9" type="checkbox" name="A1" class="form-checkbox--input" value="Chat, Instant Messenger" id="z3">
+                                                    <label for="z3" class="form-label form-checkbox--label">Chat, Instant Messenger</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="10" type="checkbox" name="A1" class="form-checkbox--input" value="Shop/Marketplace" id="z4">
+                                                    <label for="z4" class="form-label form-checkbox--label">Shop/Marketplace</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="11" type="checkbox" name="A1" class="form-checkbox--input" value="Audio/Video streaming" id="z5">
+                                                    <label for="z5" class="form-label form-checkbox--label">Audio/Video streaming</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="12" type="checkbox" name="A1" class="form-checkbox--input" value="Augmented reality" id="z6">
+                                                    <label for="z6" class="form-label form-checkbox--label">Augmented reality</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="13" type="checkbox" name="A1" class="form-checkbox--input" value="Photo/Audio/Video editing" id="z7">
+                                                    <label for="z7" class="form-label form-checkbox--label">Photo/Audio/Video editing</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="14" type="checkbox" name="A1" class="form-checkbox--input" value="Other" id="z8">
+                                                    <label for="z8" class="form-label form-checkbox--label">Other</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-group-header">What budget do you have in mind?</div>
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="14" type="checkbox" name="What_budget_do_you_have_in_mind" id="new_A214" class="form-checkbox--input" value="under $5,000">
+                                                    <label for="new_A214" class="form-label form-checkbox--label">under $5,000</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="15" type="checkbox" name="What_budget_do_you_have_in_mind" id="new_A215" class="form-checkbox--input" value="$5,000 to $10,000">
+                                                    <label for="new_A215" class="form-label form-checkbox--label ">$5,000 to $10,000</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="16" type="checkbox" name="What_budget_do_you_have_in_mind" id="new_A216" class="form-checkbox--input" value="$10,000 to $20,">
+                                                    <label for="new_A216" class="form-label form-checkbox--label ">$10,000 to $20,000</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="17" type="checkbox" name="What_budget_do_you_have_in_mind" id="new_A217" class="form-checkbox--input" value="$20,000 to $50,">
+                                                    <label for="new_A217" class="form-label form-checkbox--label">$20,000 to $50,000</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="18" type="checkbox" name="What_budget_do_you_have_in_mind" id="new_A218" class="form-checkbox--input" value="$50,000 and up">
+                                                    <label for="new_A218" class="form-label form-checkbox--label">$50,000 and up</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-group-header">What's your desired timeframe?</div>
+                                        <div class="row">
+                                            <div class="col-xs-3">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="19" id="new_A319" type="radio" name="What_is_your_desired_timeframe" class="form-checkbox--input" value="less than 1 month">
+                                                    <label for="new_A319" class="form-label form-checkbox--label form-checkbox--label--rounded">Less than 1 month</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-3">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="20" type="radio" id="new_A320" name="What_is_your_desired_timeframe" class="form-checkbox--input" value="1 to 3 months">
+                                                    <label for="new_A320" class="form-label form-checkbox--label form-checkbox--label--rounded">1 to 3 months</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-3">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="21" type="radio" name="What_is_your_desired_timeframe" id="new_A321" class="form-checkbox--input" value="3 to 6 months">
+                                                    <label for="new_A321" class="form-label form-checkbox--label form-checkbox--label--rounded">3 to 6 months</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-3">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="22" type="radio" name="What_is_your_desired_timeframe" id="new_A322" class="form-checkbox--input" value="more than 6 months">
+                                                    <label for="new_A322" class="form-label form-checkbox--label form-checkbox--label--rounded">More than 6 months</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-group-header">Would you like to start development ASAP?</div>
+                                        <div class="row">
+                                            <div class="col-xs-3">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="23" type="radio" id="new_A423" name="ASAP" class="form-checkbox--input" value="Yes">
+                                                    <label for="new_A423" class="form-label form-checkbox--label form-checkbox--label--rounded">Yes</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-3">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="24" id="new_A424" type="radio" name="ASAP" class="form-checkbox--input" value="No">
+                                                    <label for="new_A424" class="form-label form-checkbox--label form-checkbox--label--rounded">No</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-group--error-with-label">
+                                        <label for="newProjectMessage" class="form-group-header form-label">Comments</label>
+                                        <textarea tabindex="25" required="" name="text" class="form-input form-input--border-full form-input--textarea" placeholder="Write your message here..."
+                                            id="newProjectMessage" maxlength="4096" aria-required="true"></textarea>
+                                    </div>
+                                    <div class="form-group form-group--hide-main-error">
+                                        <div class="form-group-header">
+                                            Your contact information:
+                                        </div>
+                                        <div class="row form-group--split">
+                                            <div class="form-group form-group--sm-spaced col-xs-6">
+                                                <input tabindex="26" required name="fio" placeholder="Name*" class="form-input form-input--left-spaced form-input--border-full"
+                                                    maxlength="512" aria-required="true">
+                                            </div>
+                                            <div class="form-group form-group--sm-spaced col-xs-6">
+                                                <input tabindex="26" name="skype" placeholder="Skype" class="form-input form-input--left-spaced form-input--border-full"
+                                                    maxlength="512">
+                                            </div>
+                                            <div class="form-group form-group--sm-spaced col-xs-6">
+                                                <input tabindex="27" required type="email" name="mail" placeholder="Email*" class="form-input form-input--left-spaced form-input--border-full"
+                                                    maxlength="512" aria-required="true">
+                                            </div>
+                                            <div class="form-group form-group--sm-spaced col-xs-6">
+                                                <input type="tel" tabindex="28" name="phoneContact" placeholder="Phone/Viber/WhatsApp" class="form-input form-input--left-spaced form-input--border-full"
+                                                    maxlength="512" pattern="[0-9]" title="Enter only numbers">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-group--last">
+                                    	<div class="g-recaptcha" data-sitekey="6LehdLcUAAAAAJlo8Ciy9w8Qycfq_195bGfVGlZA"></div>
+      									<br/>
+                                        <button tabindex="29" type="submit" onclick="ga('send', 'event', 'New project send')" class="btn btn--secondary">SEND</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab--item fade" id="improveExistingProject" tabindex="-1" role="dialog" aria-labelledby="improveExistingProject">
+                        <div class="modal-dialog">
+                            <button class="btn btn--close" type="button" data-toggle="tab" data-target="#mainState" onclick="ga('send', 'event', 'Existing project close')">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div class="modal-content">
+                                <h3 class="section-header section-header--white">Please answer questions below.</h3>
+                                <form action="https://script.google.com/macros/s/AKfycbyXj_elDHFY1ObTnPMLZryCDh5v-twmjGvyyL_oxDx4mYzF8mM/exec" method="POST"
+                                    class=" form form--sm" name="improveExistingProjectForm" id="improveExistingProjectForm">
+                                    <div class="form-group">
+                                        <div class="form-group-header">
+                                            What exactly woud you like to do (you can select few options)?
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="1" type="checkbox" name="A0" id="improve_A01" class="form-checkbox--input" value="Add new features.">
+                                                    <label for="improve_A01" class="form-label form-checkbox--label">Add new features.</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="2" type="checkbox" name="A0" id="improve_A02" class="form-checkbox--input" value="Finish development of the product and release it.">
+                                                    <label for="improve_A02" class="form-label form-checkbox--label">My previous team fucked up, save me!</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="3" type="checkbox" name="A0" id="improve_A03" class="form-checkbox--input" value="Fix some issues">
+                                                    <label for="improve_A03" class="form-label form-checkbox--label">Fix some issues</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="4" type="checkbox" name="A0" id="improve_A04" class="form-checkbox--input" value="Other">
+                                                    <label for="improve_A04" class="form-label form-checkbox--label">Other</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-group-header">
+                                            What component of your product would you like to improve (you can select few options)?
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="5" type="checkbox" name="A1" id="improve_A11" class="form-checkbox--input" value="iOS app">
+                                                    <label for="improve_A11" class="form-label form-checkbox--label">iOS app</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="6" type="checkbox" name="A1" id="improve_A12" class="form-checkbox--input" value="Server, Admin panel">
+                                                    <label for="improve_A12" class="form-label form-checkbox--label">Server, Admin panel</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="7" type="checkbox" name="A1" id="improve_A13" class="form-checkbox--input" value="Android app">
+                                                    <label for="improve_A13" class="form-label form-checkbox--label">Android app</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="8" type="checkbox" name="A1" id="improve_A14" class="form-checkbox--input" value="Other">
+                                                    <label for="improve_A14" class="form-label form-checkbox--label">Other</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="9" type="checkbox" name="A1" id="improve_A15" class="form-checkbox--input" value="Website">
+                                                    <label for="improve_A15" class="form-label form-checkbox--label">Website</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-group-header">Would you like to start development ASAP?</div>
+                                        <div class="row">
+                                            <div class="col-xs-3">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="23" type="radio" name="ASAP" id="improve_A223" class="form-checkbox--input" value="Yes">
+                                                    <label for="improve_A223" class="form-label form-checkbox--label form-checkbox--label--rounded">Yes</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-3">
+                                                <div class="form-checkbox">
+                                                    <input tabindex="24" type="radio" name="ASAP" id="improve_A224" class="form-checkbox--input" value="No">
+                                                    <label for="improve_A224" class="form-label form-checkbox--label form-checkbox--label--rounded">No</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-group--error-with-label">
+                                        <label for="improve_comment" class="form-group-header form-label">Comments</label>
+                                        <textarea tabindex="12" required name="text" class="form-input form-input--border-full form-input--textarea" placeholder="Write your message here..."
+                                            id="improve_comment" maxlength="4096" aria-required="true"></textarea>
+                                    </div>
+                                    <div class="form-group form-group--hide-main-error">
+                                        <div class="form-group-header">Your contact information:</div>
+                                        <div class="row form-group--split">
+                                            <div class="form-group form-group--sm-spaced col-xs-6">
+                                                <input tabindex="26" required name="fio" placeholder="Name*" class="form-input form-input--left-spaced form-input--border-full"
+                                                    maxlength="512" aria-required="true">
+                                            </div>
+                                            <div class="form-group form-group--sm-spaced col-xs-6">
+                                                <input tabindex="26" name="skype" placeholder="Skype" class="form-input form-input--left-spaced form-input--border-full"
+                                                    maxlength="512">
+                                            </div>
+                                            <div class="form-group form-group--sm-spaced col-xs-6">
+                                                <input tabindex="27" required type="email" name="mail" placeholder="Email*" class="form-input form-input--left-spaced form-input--border-full"
+                                                    maxlength="512" aria-required="true">
+                                            </div>
+                                            <div class="form-group form-group--sm-spaced col-xs-6">
+                                                <input type="tel" tabindex="28" name="phoneContact" placeholder="Phone/Viber/WhatsApp" class="form-input form-input--left-spaced form-input--border-full"
+                                                    maxlength="512" pattern="[0-9]" title="Enter only numbers">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-group--last">
+                                    	<div class="g-recaptcha" data-sitekey="6LehdLcUAAAAAJlo8Ciy9w8Qycfq_195bGfVGlZA"></div>
+      									<br/>
+                                        <button tabindex="17" type="submit" onclick="ga('send', 'event', 'Existing project send')" class="btn btn--secondary">SEND</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab--item fade" id="contactYou" tabindex="-1" role="dialog" aria-labelledby="contactYou">
+                        
+                        <div class="modal-dialog">
+                            <button class="btn btn--close" type="button" data-toggle="tab" data-target="#mainState" onclick="ga('send', 'event', 'Leave message close')">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div class="modal-content">
+                                <h3 class="section-header section-header--white">Please leave your message.</h3>
+                                <form action="https://script.google.com/macros/s/AKfycbyXj_elDHFY1ObTnPMLZryCDh5v-twmjGvyyL_oxDx4mYzF8mM/exec" enctype="text/plain"
+                                    method="POST" class=" form form--sm" name="contactYouForm" id="contactYouForm">
+                                    <div class="form-group form-group--sm-bottom-spaced">
+                                        <input tabindex="1" required name="fio" placeholder="Name*" class="form-input form-input--left-spaced form-input--border-full"
+                                            maxlength="512" aria-required="true">
+                                    </div>
+                                    <div class="form-group form-group--sm-bottom-spaced">
+                                        <input tabindex="2" required type="email" name="mail" placeholder="Email*" class="form-input form-input--left-spaced form-input--border-full"
+                                            maxlength="512" aria-required="true">
+                                    </div>
+                                    <div class="form-group form-group--sm-bottom-spaced">
+                                        <input tabindex="3" name="skype" placeholder="Skype" class="form-input form-input--left-spaced form-input--border-full" maxlength="512">
+                                    </div>
+                                    <div class="form-group">
+                                        <input tabindex="4" type="tel" name="phoneContact" placeholder="Phone/Viber/WhatsApp" class="form-input form-input--left-spaced form-input--border-full"
+                                            maxlength="512" pattern="[0-9]" title="Enter only numbers" >
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea tabindex="5" required name="text" class="form-input form-input--border-full form-input--textarea" placeholder="Write your message here..."
+                                            maxlength="4096" aria-required="true"></textarea>
+                                    </div>
+                                    <div class="form-group form-group--last">
+                                    	<div class="g-recaptcha" data-sitekey="6LehdLcUAAAAAJlo8Ciy9w8Qycfq_195bGfVGlZA"></div>
+      									<br/>
+                                        <button tabindex="6" type="submit" onclick="ga('send', 'event', 'Leave message send')" class="btn btn--secondary">SEND</button>
+                                        
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab--item fade form-success" id="successState">
+                        <div class="form-success-wraper">
+                            <div class="form-success-icon">
+                                <div class="form-success-icon-vert">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px"
+                                        viewBox="20 57 160 107" xml:space="preserve">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M73,153.6c-5.2-2.5-43.4-42.6-46.9-43.7c-3.1-1.1-3-0.1-4.2,1.2  c-2.6,4.9,6.9,11.2,9.9,13.9c4.7,4.4,8.5,8.5,13.4,13.1c33.2,31,24.1,29.6,41.6,13.2c4.6-4.3,8.4-8,13.2-12.3  c4.5-4.1,8.5-8.6,12.8-12.6c10.5-9.8,64.9-61,65.6-63.7c1.2-4.4-2.8-5.6-6.2-3.4L73,153.6z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-success-content">
+                            <div class="form-success-header">
+                                Thanks.
+                            </div>
+                            <div class="form-success-">
+                                We appreciate you contacting us.
+                                <br>We'll get in touch soon.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <!--[if lt IE 8]>
+        <script src="./jquery.min.js"></script>
+        <script src="./jquery.validate.min.js"></script>
+        <script src="./bootstrap.min.js"></script>
+        <script src="./main.min.js"></script>
+        <script src="./js/portfolio.js"></script>
+        <script src="./myjs.js"></script>
+    <![endif]-->
+
+    <script src="./jquery.min.js"></script>
+    <script src="./jquery.validate.min.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <script src="./main.min.js"></script>
+    <script src="./js/portfolio.js"></script>
+    <script src="./myjs.js"></script>
+    <script>
+        $(function() {
+            $(window).scroll(function() {   
+                if($(this).scrollTop() != 0) {   
+                $('.btn-top').fadeIn();    
+                } else {   
+                $('.btn-top').fadeOut();   
+                }   
+            });    
+            $('.btn-top').click(function() {   
+                $('body,html').animate({scrollTop:0},800);
+            });    
+        });
+
+        let hash = window.location.hash;
+        hash && $('a[href="' + hash + '"]').tab('show');  
+  
+        $('#contactFormModal a').click(function (e) {
+            $(this).tab('show');
+            window.location.hash = this.hash;   
+        });
+
+        $('.btn--close').click(function(){
+            history.pushState('', document.title, window.location.pathname)
+        })
+
+        $('.nav-link-btn').click(function(){
+            $('body').removeClass('nav--collapsed');
+            $('.nav-link').removeClass('fix-height');
+            $('.nav-text').removeClass('fix-height');
+        })
+        $('.nav-link--collapsed').click(function(){
+            $('.nav-link').toggleClass('fix-height')
+            $('.nav-text').toggleClass('fix-height')
+        })
+    </script>
+
 </body>
+
 </html>
