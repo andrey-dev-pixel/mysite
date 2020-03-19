@@ -35,17 +35,6 @@ $(function(){
     //        $('.nav-link').css("display", "none");
     //});
     //});
-    // Таймер обратного отсчета
-    var current_date = new Date();// текущая дата
-        current_date.setDate(current_date.getDate())
-        curDay = current_date.getDate(),
-        curMonth = current_date.getMonth(),
-        curYear = current_date.getFullYear();
-        // curDay = 2,
-        // curMonth = 4,
-        // curYear = 2018;
-
-    $('#counter1').countMe(curYear, curMonth, curDay+4, '#counter1');
     // Scroll to top button appear
     $(document).scroll(function() {
         var scrollDistance = $(this).scrollTop();
