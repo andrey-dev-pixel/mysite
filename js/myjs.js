@@ -1,17 +1,4 @@
 $(function(){
-	var transTime = 5000;
-	var numBgColors = $('.bg-grad').length;
-	var bgtrans = setInterval(function(){
-	if($('.bg-grad.active').index() == ($('.bg-grad').length-1)){
-	$('.bg-grad.active').removeClass('active');
-	$('.bg-grad').eq(0).addClass('active');
-	}else{
-	var curIndex = $('.bg-grad.active').index();
-	$('.bg-grad.active').removeClass('active');
-	$('.bg-grad').eq(curIndex+1).addClass('active');
-	}
-	},transTime);
-
 	$(window).scroll(function() {
         if ($(this).scrollTop() > 700){  
             $('nav').addClass("sticky");
@@ -22,26 +9,43 @@ $(function(){
         }
     });
     // плавное перемещение страницы к нужному блоку
-    $(".nav_item a").click(function (e) {
+    $(".nav-item a").click(function (e) {
         e.preventDefault();
         elementClick = $(this).attr("href");
         destination = $(elementClick).offset().top;
         $("body,html").animate({scrollTop: destination }, 800);
     });
     // Menu opener hamburger
-	$('.nav-link').click(function () {											//ловим клик.
-        $('.menu-collapse').toggleClass('d-none').css('order', '1');			//отключаем d-none для меню.
-        $('.nav_menu, .nav').addClass('nav-collapsed');
-        $('.nav_item').addClass('nav-menu-collapsed');							//подлючаем стили выпадающего окна.
-        $('.nav-link').addClass('d-none');										//гамбургеру присваиваем свойство d-none.								
+	$('.nav-link').click(function () {
+        $('.nav-menu').toggleClass('nav-collapsed').css("width", "150px");
+        $('.nav-menu').slideToggle(0, function(){
+           
+            if( $(this).css('display') === "none"){
+                $(this).removeAttr('style');
+            }
+       });
     });
-    $('.nav_item').click(function () {
-        $('.menu-collapse').addClass('d-none');
-        $('.nav_menu').removeClass('nav-collapsed');
-        $('.nav-link').removeClass('d-none');
-        $('.nav').removeClass('nav-collapsed');
-        $('.nav_item').removeClass('nav-menu-collapsed');
-    });
+    //$('.nav-item').click(function () {
+    //    $('.nav-menu').removeClass('nav-collapsed').css("display", "none");
+    //    $('.nav-link').css("display", "block");
+    //    $('.nav-menu').css("width", "80px"); // плавно скрываем, или отображаем все элементы <div>
+    //});
+    //$(window).resize(function () {
+    //   if($(window).width() >= 768){
+    //        $('.nav-link').css("display", "none");
+    //});
+    //});
+    // Таймер обратного отсчета
+    var current_date = new Date();// текущая дата
+        current_date.setDate(current_date.getDate())
+        curDay = current_date.getDate(),
+        curMonth = current_date.getMonth(),
+        curYear = current_date.getFullYear();
+        // curDay = 2,
+        // curMonth = 4,
+        // curYear = 2018;
+
+    $('#counter1').countMe(curYear, curMonth, curDay+4, '#counter1');
     // Scroll to top button appear
     $(document).scroll(function() {
         var scrollDistance = $(this).scrollTop();
