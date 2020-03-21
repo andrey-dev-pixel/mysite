@@ -148,6 +148,13 @@ button:before {
 	padding-top: 6px;
 }
 
+.social-phone {
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+
 .social-telegram a {
 	color: #17BFAB;
 
