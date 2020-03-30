@@ -2,379 +2,873 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>test</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<!-- Bootstrap Reboot CSS --> 
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/main.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/mycss.css" type="text/css">
 </head>
-<body id="page-top">
-	<header class="header d-flex" id="header">
-			<div class="header-mailto">
-				<i class="far fa-envelope"></i>
-				<a href="#">
-					vasyapupkin@gmail.com
-				</a>
+<body>
+	<section class="info" id="info">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7">
+					<ul class="info-list d-flex">
+						<li>
+							<a class="info-list__item" href="#">
+								Доставка<span><i class="far fa-circle"></i></span> 
+							</a>
+						</li>
+						<li>
+							<a class="info-list__item" href="#">
+								Оплата<span><i class="far fa-circle"></i></span> 
+							</a>
+						</li>
+						<li>
+							<a class="info-list__item" href="#">
+								Возврат<span><i class="far fa-circle"></i></span> 
+							</a>
+						</li>
+						<li>
+							<a class="info-list__item" href="#">
+								Оптовым покупателям 
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-5 info-contacts ml-auto d-flex">
+					<p class="info-text">
+						бесплатно по России
+					</p>
+					<a class="info-phone" href="#">8-800-000-00-00</a>
+				</div>				
 			</div>
-			<div class="header-social d-flex">
-				<a class="social-phone" hfer="#">
-					+70123456789
-				</a>
-				<div class="social-telegram social">
+		</div>
+	</section>
+	<section class="search" id="search">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="logo">
+						<span>Logo</span>type
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<form class="search-form">
+  						<input type="text" placeholder="Что Вы ищете?" class="search-input">
+  						<button type="submit">
+  							<i class="fas fa-search"></i>
+  						</button>
+					</form>
+				</div>
+				<div class="co-1 col-lg-1">
 					<a href="#">
-						<i class="fas fa-paper-plane"></i>
+						<!--<i class="fas fa-cart-plus"></i>-->
+						<img class="search-icon user" src="img/user.png" alt="icon">
 					</a>
 				</div>
-				<div class="social-whatsup social">
+				<div class="col-1 col-lg-1">
 					<a href="#">
-						<i class="fab fa-google-plus-g"></i>
+						<!--<i class="far fa-heart"></i>-->
+						<img class="search-icon" src="img/heart1.png" alt="icon">
 					</a>
 				</div>
-				<div class="social-viber social">
+				<div class="col-1 col-lg-1">
 					<a href="#">
-						<i class="fab fa-fw fa-facebook-f"></i>
+						<!--<i class="fas fa-cart-plus"></i>-->
+						<img class="search-icon" src="img/cart.png" alt="icon">
 					</a>
 				</div>
 			</div>
-			<div class="header-order">
-				<a href="#">
-					Заказать звонок
-				</a>
-			</div>
-	</header>
+		</div>
+	</section>
 	<nav class="nav" id="nav">
-		<div class="container d-flex">
-			<div class="logo">
+		<div class="container">
+			<div class="row">
+				<div class="col-3 col-lg-3">
+					<div class="nav-catalog__btn d-flex">
+						<div class="nav-hamburger">
+							<!--<i class="fa fa-bars"></i>-->
+							<span class="icon-bar" id="span1"></span>
+	           	 			<span class="icon-bar" id="span2"></span>
+	            			<span class="icon-bar" id="span3"></span>
+            			</div>
+						<p>
+							Каталог товаров
+						</p>
+						<div class="nav-shevron">
+							<i class="fas fa-chevron-down"></i>
+						</div>
+					</div>
+				</div>
+				<div class="d-none col-lg-9 d-lg-block ml-auto">
+					<ul class="nav-menu d-flex">
+						<li class="menu-link item">
+							<a href="#">
+								О компании
+							</a>
+						</li>
+						<li class="menu-link item">
+							<a href="#">
+								Акции
+							</a>
+						</li>
+						<li class="menu-link item">
+							<a href="#">
+								Новости
+							</a>
+						</li>
+						<li class="menu-link item">
+							<a href="#">
+								Блог
+							</a>
+						</li>
+						<li class="menu-link item">
+							<a href="#">
+								Эксперты
+							</a>
+						</li>
+						<li class="menu-link">
+							<a href="#">
+								Контакты
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-			<ul class="nav-menu d-flex">
-				<li class="nav-item">
-					<a href="#presentation">
-						Домой
-					</a>
-				</li>
-				<li class="nav-item">
-					<a href="#teams">
-						Темы курса
-					</a>
-				</li>
-				<li class="nav-item">
-					<a href="#about">
-						Обомне
-					</a>
-				</li>
-				<li class="nav-item">
-					<a href="#footer">
-						Контакты
-					</a>
-				</li>
-			</ul>
-			<div class="nav-btn">
-				<button type="button" id="button-collapsed" class="nav-link nav-link--collapsed" aria-expanded="false">
-            		<!--<input type="checkbox" />-->
-            		<span class="icon-bar" id="span1"></span>
-           	 		<span class="icon-bar" id="span2"></span>
-            		<span class="icon-bar" id="span3"></span>
-        		</button>
-        	</div>
-			<form>
-  				<input type="text" placeholder="Искать здесь...">
-  				<button type="submit">
-  					<i class="fas fa-search"></i>
-  				</button>
-			</form>
 		</div>
 	</nav>
-	<section class="presentation" id="presentation">
+	<header class="header" id="header">
 		<div class="container">
-			<div class="presentation-titles">
-				<h1 class="presentation-title">
-					Заголовок с определенным текстом
-				</h1>
-				<p class="presentation-text">
-					Подзаголовок с вроде как проникновенной цитатой
-				</p>
-			</div>
-			<div class="presentation-video">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/5dsGWM5XGdg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
-			<p>
-				
-			</p>
-			<p class="presentation-paragraph">
-				Ци мэнь для Вас — слишком громоздкий и непонятный? Хотите съесть слона по кусочку? 1-2 урока цимэнь каждую неделю в Ваш почтовый ящик!
-			</p>
-			<p class="presentation-paragraph">
-				НА ВСЕ ВКУСЫ: порой это будет видео, порой аудио или текст.
-			</p>
-			<p class="presentation-paragraph">
-				Пока не готовы на профессиональный курс? Или уже прошли ПРО ци мэнь и хотите новые фишки, техники и примеры?
-			</p>
-			<p class="presentation-paragraph">
-				Ци мэнь дунь цзя можно условно перевести как «Таинственные», или «Чудесные», или «Мистические» Врата – врата, через которые мы отправляемся на встречу удаче или скрываемся от неудачи.
-			</p>
-			<p class="presentation-paragraph">
-				Ци Мэь Дунь Цзя фокусируется на распределении благоприятной и неблагоприятной qi относительно 8 направлений в году, в месяце, в дне и в течение каждого сдвоенного китайского часа.
-			</p>
-			<p class="presentation-paragraph">
-				Как только вы совершаете действие или путешествие в благоприятном направлении в определенное время, ваша удача улучшается драматическим и чудесным образом. Например, вы можете поехать на встречу с клиентом или работодателем для того, чтобы они поддержали ваши идеи и восприняли вашу личность наилучшим образом.
-			</p>
-		</div>
-	</section>
-	<section class="teams" id="teams">
-		<div class="container">
-			<h2 class="teams-title">
-				Tемы нашего курса
-			</h2>
-			<div class="teams-list">
-				<div class="list-title">
-					Список 1:
+			<div class="row">
+				<div class="col-3 d-none d-lg-block col-lg-3">
+					<div class="header-catalog">
+						<ul class="header-catalog__list">
+							<li class="header-catalog__link">
+								<a href="#">
+									<i class="far fa-circle circle"></i>
+									Катушки
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</li>
+							<li class="header-catalog__link">
+								<a href="#">
+									<i class="far fa-circle circle"></i>
+									Удилища
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</li>
+							<li class="header-catalog__link">
+								<a href="#">
+									<i class="far fa-circle circle"></i>
+									Приманки
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</li>
+							<li class="header-catalog__link">
+								<a href="#">
+									<i class="far fa-circle circle"></i>
+									Воблеры
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</li>
+							<li class="header-catalog__link">
+								<a href="#">
+									<i class="far fa-circle circle"></i>
+									Лески и шнуры
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</li>
+							<li class="header-catalog__link">
+								<a href="#">
+									<i class="far fa-circle circle"></i>
+									Поплавки
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</li>
+							<li class="header-catalog__link">
+								<a href="#">
+									<i class="far fa-circle circle"></i>
+									Крючки
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</li>
+							<li class="header-catalog__link">
+								<a href="#">
+									<i class="far fa-circle circle"></i>
+									Аксессуары
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</li>
+							<li class="header-catalog__link">
+								<a href="#">
+									<i class="far fa-circle circle"></i>
+									Одежда
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</li>
+							<li class="header-catalog__link">
+								<a href="#">
+									<i class="far fa-circle"></i>
+									Снаряжение
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</li>
+							<li class="header-catalog__link">
+								<a href="#">
+									<i class="far fa-circle circle"></i>
+									Электроника
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</li>
+							<li class="header-catalog__link">
+								<a href="#">
+									<i class="far fa-circle circle"></i>
+									Зимняя рыбалка
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</li>
+							<li class="header-catalog__link">
+								<a href="#">
+									<i class="far fa-circle circle"></i>
+									Другое
+									<i class="fas fa-chevron-right"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-				<ul>
-					<li class="list-item">
-						<span>&#9658</span>
-						<a href="#">
-							 Двери ци мэнь дунь цзя для жизни, самое важное
-						</a>
-					</li>
-					<li class="list-item">
-						<span>&#9658</span>
-						<a href="#">
-							 Характеристики и качества
-						</a>
-					</li>
-					<li class="list-item">
-						<span>&#9658</span>
-						<a href="#">
-							 Небесные стволы для жизни
-						</a>
-					</li>
-					<li class="list-item">
-						<span>&#9658</span>
-						<a href="#">
-							 Базовые правила применения
-						</a>
-					</li>
-					<li class="list-item">
-						<span>&#9658</span>
-						<a href="#">
-							 Изучаем иероглифы цимэнь
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div class="teams-list down">
-				<div class="list-title">
-					Список 2:
+				<div class="col-lg-9">
+					<div class="header-discount">
+						<div class="header-discount__info">
+							<h1 class="discount-title">
+								Специальные<br>предложения
+							</h1>
+							<p class="discount-text">
+								катушка Adrenalin 7300 BC
+							</p>
+							<span>
+								5600p.
+							</span>
+							<a class="discount-btn" href="#">
+								Купить
+							</a>
+							<div class="header-discount__pointer"></div>
+						</div>
+						<div class="discount-img"></div>
+					</div>
+					<div class="header-discount__cards d-flex">
+							<div class="header-card left">
+								<h3 class="header-card__title">
+									новые<br>приманки
+								</h3>
+								<p class="header-card__text">
+									для подледной ловли
+								</p>
+								<a class="header-card__btn card-left" href="#">
+									<i class="fas fa-chevron-right"></i>
+								</a>
+								<div class="header-card-img fish"></div>
+							</div>
+							<div class="header-card center">
+								<h3 class="header-card__title">
+									Скачайте<br>каталог
+								</h3>
+								<p class="header-card__text">
+									для оптовиков
+								</p>
+								<a class="header-card__btn card-center" href="#">
+									<i class="fas fa-chevron-right"></i>
+								</a>
+								<div class="header-card-img book"></div>
+							</div>
+							<div class="header-card">
+								<h3 class="header-card__title">
+									Эксперты<br>отвечают
+								</h3>
+								<p class="header-card__text">
+									на ваши вопросы
+								</p>
+								<a class="header-card__btn card-right" href="#">
+									<i class="fas fa-chevron-right"></i>
+								</a>
+								<div class="header-card-img manfish"></div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<ul>
-					<li class="list-item">
-						<span>&#9658</span>
-						<a href="#">
-							 Двери ци мэнь дунь цзя для жизни, продолжение
+			</div>
+			<span class="header-bottom__line"></span>
+		</div>
+	</header>
+	<section class="hits" id="hits">
+		<div class="container">
+			<div class="hits-titles d-flex">
+				<h2 class="hits-title">
+					Хиты продаж
+				</h2>
+				<a class="hits-catalog__submit" href="#">
+					весь каталог
+				</a>
+				<div class="hits-btns d-flex ml-auto">
+					<a class="hits-btn left" href="#">
+						<i class="fas fa-chevron-left"></i>
+					</a>
+					<a class="hits-btn right" href="#">
+						<i class="fas fa-chevron-right"></i>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="hit-card bastseller">
+						<h3 class="hit-card__title">
+							Бестселлер
+						</h3>
+						<p class="hit-card__text">
+							катушка<br> Adrenalin<br> 7300 BC
+						</p>
+						<div class="hit-card__img"></div>
+						<p class="hit-card__money">
+							4800p
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="hit-card product">
+						<div class="block-discount d-none">
+							cкидка
+						</div>
+						<div class="block-hit">
+							хит
+						</div>
+						<div class="hit-card-spinning__img"></div>
+						<div class="hit-icons d-flex">
+							<div class="news-icons__stars d-flex">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">	
+							</div>
+							<img class="hit-icon" src="img/heart.png" alt="icon">
+						</div>
+						<p class="hit-card__position">
+							Удилище<br> Matze Koch Rollen
+						</p>
+						<span>
+							13 490 p.
+						</span>
+						<a class="hit-card__btn" href="#">
+							в корзину
 						</a>
-					</li>
-					<li class="list-item">
-						<span>&#9658</span>
-						<a href="#">
-							 Звезды для жизни
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="hit-card product">
+						<div class="block-discount">
+							cкидка
+						</div>
+						<div class="block-hit">
+							хит
+						</div>
+						<div class="hit-card-fish__img"></div>
+						<div class="hit-icons d-flex">
+							<div class="news-icons__stars d-flex">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">	
+							</div>
+						</div>
+						<p class="hit-card__position">
+							Приманка<br> Matze Koch Rollen
+						</p>
+						<span>
+							3 240 p.
+						</span>
+						<a class="hit-card__btn" href="#">
+							в корзину
 						</a>
-					</li>
-					<li class="list-item">
-						<span>&#9658</span>
-						<a href="#">
-							 Больше правил и применений…
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="hit-card product">
+						<div class="block-discount d-none">
+							cкидка
+						</div>
+						<div class="block-hit">
+							хит
+						</div>
+						<div class="hit-card-koil__img"></div>
+						<div class="hit-icons d-flex">
+							<div class="news-icons__stars d-flex">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">	
+							</div>
+						</div>
+						<p class="hit-card__position">
+							Катушка<br> Matze Koch Rollen
+						</p>
+						<span>
+							5 600 p.
+						</span>
+						<a class="hit-card__btn" href="#">
+							в корзину
 						</a>
-					</li>
-					<li class="list-item">
-						<span>&#9658</span>
-						<a href="#">
-							 Изучаем иероглифы цимэнь, продолжение
-						</a>
-					</li>
-					<li class="list-item">
-						<span>&#9658</span>
-						<a href="#">
-							 Почему «закон притяжения» из фильма «Секрет»срабатывает далеко не у всех
-						</a>
-					</li>
-					<li class="list-item">
-						<span>&#9658</span>
-						<a href="#">
-							 Изучаем иероглифы цимэнь, продолжение
-						</a>
-					</li>
-				</ul>
-			</div>		
+					</div>
+				</div>
+			</div>
+			<span class="header-bottom__line"></span>
 		</div>
 	</section>
-	<section class="sale" id="sale">
+	<section class="news" id="news">
 		<div class="container">
-			<h2 class="sale-title">
-				Заголовок раздела с большим содержанием текста, существенно большим
-			</h2>
-			<p class="sale-text">
-				Несмотря на то, что в Ци Мэнь Дунь Цзя присутствуют разные компоненты – двери, небесные стволы, звёзды,
-			</p>
-			<p class="sale-text">
-				духи и так далее, самое важное в Чи Мэнь всё-таки двери. Ведь это искусство переводится как мистические врата, скрывающие Дзя.
-			</p>
-			<p class="sale-text">
-				Дверь Отдых связана именно с отдыхом, расслаблением, с восстановлением здоровья и прочее. Не слишком мотивирующая дверь. Это дверь комфорта.
-			</p>
-			<p class="sale-text">
-				Как большинство из нас не любят выходить из зоны комфорта. Комфорт – это отдых. Хороша для отдыха, лечения, медицинских процедур .Шэн мень, так называемая дверь «Жизнь» или «Рождение» ,- самая денежная дверь.
-			</p>
-			<p class="sale-text">
-				Проблема в том, что приходится много работать, как и в случае звезды восемь.
-			</p>
-			<p class="sale-text">
-				Дверь «Иллюзия» — под ее влиянием хорошо прятаться, чтобы Вас не нашли. Например, пьяный ревнивый муж или начальник, когда Вы в отпуске-:)
-			</p>
-			<p class="sale-text">
-				Также дверь Иллюзия управляет метафизическими искусствами. Так или иначе, это всё скрытое, тайное. Кроме того, она управляет такими вещами как интернет-маркетинг или интернет-бизнес. Триграмма Шунь – ветер — распространяющаяся информация.
-			</p>
-			<p class="sale-text">
-				Поэтому любая дверь денежная, но неким своим специфическим образом. Дверь Ужас – это шок, ужас. Она хороша для кого? Например, для политиков.
-			</p>
-			<p class="sale-text">
-				Они же всё время рассказывают страхи – если не проголосуете за нас, тогда все заводы остановятся, вы окажетесь на улице…
-			</p>
-		</div>
-		<div class="sale-attention">
-			Завлекающий текст, на котором необходимо акцентировать внимание и как-либо выделить, на свой вкус. Возможно отдельным блоком с обводкой и фоном.
+			<div class="news-titles d-flex">
+				<h2 class="news-title">
+					Новинки
+				</h2>
+				<a class="news-catalog__submit" href="#">
+					весь каталог
+				</a>
+				<div class="news-btns d-flex ml-auto">
+					<a class="news-btn left" href="#">
+						<i class="fas fa-chevron-left"></i>
+					</a>
+					<a class="news-btn right" href="#">
+						<i class="fas fa-chevron-right"></i>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="news-card action">
+						<h3 class="news-card__title">
+							Акция
+						</h3>
+						<p class="news-card__text">
+							Удилище<br>Adrenalin<br>7300 BC
+						</p>
+						<span class="news-card__discount">-30%</span>
+						<div class="news-card__img"></div>
+						<p class="news-card__money">
+							4800p
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="news-card product">
+						<div class="block-discount d-none">
+							Скидка
+						</div>
+						<div class="block-hit d-none">
+							хит
+						</div>
+						<div class="news-card-koil1__img"></div>
+						<div class="news-icons d-flex">
+							<div class="news-icons__stars d-flex">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">	
+							</div>
+						</div>
+						<p class="news-card__position">
+							Катушка<br> Matze Koch Rollen
+						</p>
+						<span>
+							13 490 p.
+						</span>
+						<a class="news-card__btn" href="#">
+							в корзину
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="news-card product">
+						<div class="block-discount">
+							cкидка
+						</div>
+						<div class="block-hit d-none">
+							хит
+						</div>
+						<div class="news-card-nipple__img"></div>
+						<div class="news-icons d-flex">
+							<div class="news-icons__stars d-flex">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">	
+							</div>
+						</div>
+						<p class="news-card__position">
+							Подсачек<br> Matze Koch Rollen
+						</p>
+						<span>
+							3 240 p.
+						</span>
+						<a class="news-card__btn" href="#">
+							в корзину
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="news-card product">
+						<div class="block-discount d-none">
+							cкидка
+						</div>
+						<div class="block-hit d-none">
+							хит
+						</div>
+						<div class="news-card-bag__img"></div>
+						<div class="news-icons d-flex">
+							<div class="news-icons__stars d-flex">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">
+								<img class="star" src="img/star.png" alt="icon">	
+							</div>
+						</div>
+						<p class="news-card__position">
+							Сумка рыболовная<br> Matze Koch Rollen
+						</p>
+						<span>
+							5 600 p.
+						</span>
+						<a class="news-card__btn" href="#">
+							в корзину
+						</a>
+					</div>
+				</div>
+			</div>
+			<span class="header-bottom__line"></span>
 		</div>
 	</section>
-	<section class="reviews" id="reviews">
+	<section class="last_news" id="last_news">
 		<div class="container">
-			<h2 class="revievs-title">
-				Отзыв участников курса:
-			</h2>
-			<div class="reviews-window">
-				<p>
-					Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. 
-				</p>
-				<p class="window-name">
-					Светлана Ивановна
-				</p>
+			<div class="news-titles last_news-title d-flex">
+				<h2 class="news-title">
+					Последние новости
+				</h2>
+				<a class="news-catalog__submit" href="#">
+					все новости
+				</a>
+				<div class="news-btns d-flex ml-auto">
+					<a class="news-btn left" href="#">
+						<i class="fas fa-chevron-left"></i>
+					</a>
+					<a class="news-btn right" href="#">
+						<i class="fas fa-chevron-right"></i>
+					</a>
+				</div>
 			</div>
-			<div class="reviews-window">
-				<p>
-					Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. 
-				</p>
-				<p class="window-name">
-					Светлана Ивановна
-				</p>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="last_news__card">
+						<div class="data">
+							13.02.2019
+						</div>
+						<div class="last_news__card1__img"></div>
+						<h4 class="last_news__card__title">
+							Презентация нового продукта
+						</h4>
+						<p class="last_news__card__text">
+							Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных...
+						</p>
+						<a href="#">
+							Подробнее
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="last_news__card">
+						<div class="data">
+							13.02.2019
+						</div>
+						<div class="last_news__card2__img"></div>
+						<h4 class="last_news__card__title">
+							Презентация нового продукта
+						</h4>
+						<p class="last_news__card__text">
+							Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных...
+						</p>
+						<a href="#">
+							Подробнее
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="last_news__card">
+						<div class="data">
+							13.02.2019
+						</div>
+						<div class="last_news__card3__img"></div>
+						<h4 class="last_news__card__title">
+							Презентация нового продукта
+						</h4>
+						<p class="last_news__card__text">
+							Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных...
+						</p>
+						<a href="#">
+							Подробнее
+						</a>
+					</div>
+				</div>
 			</div>
-			<div class="reviews-window">
-				<p>
-					Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. 
+		</div>
+	</section>
+	<section class="form" id="form">
+		<div class="last_news__form">
+			<div class="container">
+				<p class="last_news__form__text">
+					Подпишитесь на рассылку и будьте в курсе новостей, акций, новинок
 				</p>
-				<p class="window-name">
-					Светлана Ивановна
-				</p>
+				<form class="form">
+	  				<input type="text" placeholder="Ваш email" class="last_news__input">
+	  				<button type="submit">
+	  					Подписаться
+	  				</button>
+				</form>
 			</div>
-			<div class="reviews-window">
-				<p>
-					Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. Очень хороший курс. 
-				</p>
-				<p class="window-name">
-					Светлана Ивановна
-				</p>
+		</div>
+	</section>
+	<section class="discounts" id="discounts">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="discounts-all__product">
+						<div class="discounts-all__titles">
+							<h2 class="discounts-all__title">
+								Скидка<span>До 15 декабря</span><br>на все лески
+							</h2>
+							<div class="discount-all__numbers d-flex">	
+								<a class="discount-all__btn" href="#">
+									<i class="fas fa-chevron-right"></i>
+								</a>
+								<span>-30%</span>
+							</div>
+						</div>
+						<div class="discounts-all__img"></div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="discounts-all__product">
+						<div class="discounts-all__titles">	
+							<h2 class="discounts-all__title">
+								Скидка<span>До 31 декабря</span><br>на катушки
+							</h2>
+							<div class="discount-all__numbers d-flex">	
+								<a class="discount-all__btn" href="#">
+									<i class="fas fa-chevron-right"></i>
+								</a>
+								<span>-10%</span>
+							</div>	
+						</div>
+						<div class="discounts-all__img__koil"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 	<section class="about" id="about">
 		<div class="container">
 			<h2 class="about-title">
-				Автор проекта:
+				О компании
 			</h2>
-			<div class="about-author d-flex">
-				<div class="about-img"></div>
-				<p class="about-text">
-					<span>Василий Степанович</span> - очень хороший человек, делает качественные проекты. Описание его достижений. Описание его достижений. Описание его достижений. Описание его достижений. Описание его достижений. Описание его достижений. Описание его достижений. Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.
-					Описание его достижений. Описание его достижений. Описание его достижений. Описание его достижений. Описание его достижений. Описание его достижений. Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.
-					достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.  Описание его достижений. Описание его достижений.
-				</p>
-			</div>
-		</div>
-	</section>
-	<section class="money" id="money">
-		<div class="container">
-			<h2 class="money-title">
-				Варианты участия:
-			</h2>
-			<div class="money-timer">
-				<div class="money-text">
-					<span class="dollar">$100 со скидкой,</span> <span>(~63 000RUR; ~27 000UAH)</span>
+			<div class="row">
+				<div class="col-lg-6">
+					<p class="about-text">
+						По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.
+					</p>
+					<p class="about-text">
+						По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.
+					</p>
+					<p class="about-text">
+						По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских.
+					</p>
 				</div>
-				 <h3 class="section-title animated">
-	                Однако, скоро всё закончится...
-	             </h3>
-	             <p class="about-finish animated">
-	                Когда таймер дойдет до нулевой отметки,<br>
-	                скидка будет не действительна. Поспешите!
-	             </p>
-	            <script src="js/countdown.js" type="text/javascript"></script> 
-				<script type="application/javascript">
-
-					var myCountdownTest = new Countdown({
-										// I'm cheating here... so I don't have to update this every year!
-										// year : 2042, // <-- This is a better example of what to use.
-									 	year: (new Date().getFullYear() + 1),
-										month	: 4, 
-										day		: 1,
-										width	: 280, 
-										height	: 50
-										});
-
-
-
-				</script>
-				<!-- END COUNTDOWN -->
+				<div class="col-lg-6">
+					<p class="about-text">
+						По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.
+						По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.
+						По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.
+						По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.
+					</p>
+				</div>
 			</div>
-			<a class="money-btn" href="#">
-				Купить
-			</a>
 		</div>
 	</section>
-	<footer class="footer d-flex" id="footer">
-		<div class="header-mailto">
-			<i class="far fa-envelope"></i>
-			<a href="#">
-				vasyapupkin@gmail.com
-			</a>
-		</div>
-		<div class="header-social d-flex">
-			<div class="social-telegram social footer-social">
-				<a href="#">
-					<i class="fas fa-paper-plane"></i>
-				</a>
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-4 col-md-4 col-lg-4">
+					<div class="footer-logo">
+						<span>Logo</span>type
+						<p class="footer-text">
+							Официальный проедставитель<br>в России
+						</p>
+					</div>
+					<a class="footer-dawnload" href="#">
+						Скачать каталог 2020
+					</a>
+					<a class="footer-connection" href="#">
+						Связаться с нами
+					</a>
+				</div>
+				<div class="col-6 col-md-4 col-lg-2">
+					<h4 class="footer-title">
+						Компания
+					</h4>
+					<ul class="footer-list">
+						<li>
+							<a href="#">
+								О компании
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Акции
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Новости
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Блог
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Эксперты
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Контакты
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-6 col-md-4 col-lg-2">
+					<h4 class="footer-title">
+						Покупателям
+					</h4>
+					<ul class="footer-list">
+						<li>
+							<a href="#">
+								Каталог
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Оплата
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Доставка
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Возврат
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Помощь
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-6 col-md-4 col-lg-2">
+					<h4 class="footer-title">
+						Оптовикам
+					</h4>
+					<ul class="footer-list">
+						<li>
+							<a class="footer-phone" href="#">
+								8 (800) 000-00-00
+							</a>
+						</li>
+						<li>
+							<a class="footer-phone" href="#">
+								8 (800) 000-00-00
+							</a>
+						</li>
+						<li>
+							<a class="footer-phone" href="#">
+								8 (800) 000-00-00
+							</a>
+						</li>
+						<li>
+							<a  class="footer-mail" href="#">
+								info@mail.ru
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-6 col-md-4 col-lg-2">
+					<h4 class="footer-title">
+						Контакты
+					</h4>
+					<ul class="footer-list">
+						<li>
+							г. Москва, ул. Иванова
+						</li>
+						<li>
+							д. 5, пом. 8, оф. 11
+						</li>
+						<li>
+							<a class="footer-phone" href="#">
+								8 (800) 000-00-00
+							</a>
+						</li>
+						<li>
+							<a class="footer-phone" href="#">
+								8 (800) 000-00-00
+							</a>
+						</li>
+						<li>
+							<a class="footer-mail" href="#">
+								info@yandex.ru
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-			<div class="social-whatsup social footer-social">
-				<a href="#">
-					<i class="fab fa-google-plus-g"></i>
-				</a>
+			<span class="header-bottom__line footer-line"></span>
+			<div class="footer-social d-flex">
+				<p class="footer-social__text">
+					&#169 2010-2019 Ltd. Все права защищены
+				</p>
+				<div class="footer-social__icons d-flex ml-auto">
+					<a href="#">
+						<i class="fab fa-vk"></i>
+					</a>
+					<a href="#">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="#">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
 			</div>
-			<div class="social-viber social footer-social">
-				<a href="#">
-					<i class="fab fa-fw fa-facebook-f"></i>
-				</a>
-			</div>
-		</div>
-		<div class="header-order">
-			<a href="#">
-				Заказать звонок
-			</a>
 		</div>
 	</footer>
-	<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-to-top d-none position-fixed ">
-	    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-	        <i class="fa fa-chevron-up"></i>
-	    </a>
-    </div>	
-	<script src="js/jquery-3.3.1.min.js"></script>
-   	<script src="js/myjs.js"></script>	
 </body>
 </html>
